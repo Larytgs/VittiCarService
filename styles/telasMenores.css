@@ -1,0 +1,45 @@
+@charset "UTF8";
+
+
+:root{
+    --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa, 0 0 30px #0085FF;
+    --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
+    
+}
+
+
+@media all and (min-width: 1010px) and (max-width: 1115px) {
+
+}
+
+
+@media all and (min-width: 990px) and (max-width: 1009px) { 
+
+}
+
+
+@media all and (min-width: 960px) and (max-width: 989px) { 
+
+}
+
+
+@media all and (min-width: 800px) and (max-width: 989px) { /*para tablets grandes*/ 
+
+}
+
+
+@media all and (min-width: 530px) and (max-width: 799px) { /*para tablets pqnos*/ 
+
+}
+
+
+@media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/ 
+
+}
+
+
+@media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
+
+}
+

@@ -1,0 +1,392 @@
+@charset "UTF8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa, 0 0 30px #0085FF;
+    --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
+    
+}
+
+html, body{
+    scroll-behavior: smooth; /*rolagem suave*/    
+}
+:target {
+    scroll-margin-top: 5em;
+}
+body{
+    overflow-x: hidden;
+    box-sizing: content-box; /*nos permite incluir o preenchimento e a borda na largura e altura totais de um elemento.*/
+    font-size: 1.1em;
+}
+
+/*Header em outro css*/
+
+/*Main Geral*/
+main{
+    width: 100%;
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+main h1{
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*Index*/
+#texto1{
+    height: 550px;
+    width: 100%;
+    box-sizing: content-box;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+#texto1 section{
+    text-align: center;
+    padding: 80px 20px 10px 20px; 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+#texto1 div{
+    box-sizing: border-box;
+}
+#texto1 h1{
+    font-weight: bold; font-size: 2em; font-style: italic;
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlue); 
+}
+#texto1 p{
+    width: 645px;
+}
+#texto1 img{
+    height: 250px;
+}
+
+/*imagem do motor suspensa no Index*/
+#imagemMotor{
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+}
+#imagemMotor img{ 
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+
+
+/*Index Marcas*/
+#marcas{
+    text-align: center; 
+    padding: 20px; margin: 16% 0% 1%; /*margem em cima do motor*/
+    height: 80vh;
+    box-sizing: content-box;
+    white-space: nowrap; /*impede que o texto seja quebrado em várias linhas automaticamente.*/
+}
+#marcas h1{
+    margin-bottom: 30px;
+    padding-top: 30px;
+    color: red;
+    text-shadow: var(--efeitoBrilhanteRed);
+    font-style: italic;
+}
+#marcas p{
+    margin-bottom: 2%;
+}
+#marcas img{
+    width: 100px; height: 100px;
+}
+#carrossel{
+    display: inline-block;
+    animation: 30s slide linear infinite; /*duração de 30s; 
+                                'slide' o nome da animação-@keyframes; 
+                        'linear' significa que a animação ocorrerá em velocidade constante do início ao fim.
+                                Outras opções: ease, ease-in, ease-out, ease-in-out, etc.
+                        'infinite' Faz com que a animação se repita infinitamente*/
+    height: 150px;
+    overflow: hidden;
+}
+#carrossel::before{
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), blue);
+}
+#carrossel::after{
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), red);
+}
+#carrossel .fotos{
+    display: inline-block;/*inclusao do teteu*/
+    width: 100%;/*inclusao do teteu*/
+    
+}
+#carrossel .fotos img{
+    padding: 30px;
+}
+
+#botaoMarcas{
+    margin-top: 50px; 
+}
+#botaoMarcas input{
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#botaoMarcas input:hover{
+    background-image: linear-gradient(50deg, #0085FF, #0000ffde, #080852);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }/* Começa na posição inicial */
+    100% { transform: translateX(-100%); } /* Move o elemento completamente para a esquerda */
+}
+
+
+
+/*Index retifica*/
+#retifica{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.253);
+    padding-bottom: 40px;
+    box-sizing: content-box;
+    width: 100%;
+    height: 80vh;
+}
+#retifica h1{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlue);
+    font-style: italic;
+    padding-top: 20px;
+}
+#retifica p{
+    padding-bottom: 50px;
+}
+#retifica div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+}
+#retifica img{
+    width: 330px;
+    height: 330px;
+    margin: 0px 50px;
+}
+#retifica ul{
+    text-align: left;
+    list-style-type: '\2714\00a0\00a0';
+    font-size: 1.1em;
+    columns: 2;
+    width: 800px;
+    font-weight: bold;
+
+    list-style-position: inside; /*deixar a lista organizada*/
+}
+
+hr{
+    border: 3px dotted #0085FF; 
+}
+
+/*Index Disco de freio*/
+#freio{
+    background-color: rgba(128, 128, 128, 0.253);
+    padding-top: 20px; padding-bottom: 40px;
+    
+    box-sizing: content-box;
+    width: 100%;
+    height: 80vh;
+}
+#freio h1{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlue);
+    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
+}
+#freio p{
+    padding-bottom: 50px;
+    text-align: center;
+}
+#blocoFreio{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /*Alinha ao topo, mantendo o layout estável*/
+    text-align: center;
+    
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+}
+#freio img{
+    width: 350px;
+    margin: 0px 50px;
+
+    position: sticky; /* Fixa a imagem enquanto você rola os detalhes */
+    top: 10px; /* Espaçamento do topo */
+}
+#blocoDetals {
+    flex: 1; /* Faz a área de detalhes ocupar o espaço restante */
+}
+#freio details{
+    border: 2px solid ;
+    padding: 10px; margin: auto;
+    width: 100%; /* Ajusta largura responsiva */
+    text-align: left; 
+    cursor: pointer;
+}
+#freio h3{
+    padding: 20px;
+    font-weight: 100;
+    text-decoration: underline;
+    color: #0085FF;
+    text-shadow: 0 0 5px white, 0 0 5px #00000056;
+}
+
+
+/*Index Serviços*/
+#serviço{
+    text-align: center;
+    box-sizing: content-box;
+    width: 100%; height: 400px;
+    align-items: center;
+}
+#serviço h1{
+    padding: 4% 0%;
+    font-style: italic;
+    color: red;
+    text-shadow: var(--efeitoBrilhanteRed);
+}
+.blocoServ{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    box-sizing: border-box;
+    width: 95%;
+}
+.blocoServ div{
+    width: 300px;
+    padding: 5px; padding-bottom: 10px;
+    margin: 5px;
+    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
+
+}
+.blocoServ h2{
+    font-size: larger;
+}
+
+#botaoServiços{
+    text-align: center;
+    margin-top: 50px;
+}
+#botaoServiços input{
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#botaoServiços input:hover{
+    background-image: linear-gradient(50deg, #0085FF, #0000ffde, #080852);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+footer{
+    background-color: rgba(128, 128, 128, 0.253); color: black;
+
+    overflow-x: hidden;
+    box-sizing: content-box;
+    width: 100%;
+    height: 85vh;
+}
+footer h1{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 8% 0% 5%;
+}
+
+#blocoFooter{
+    display: flex;
+    justify-content: space-evenly;
+
+    box-sizing: border-box;
+    margin: auto;
+}
+#blocoFooter h3{
+    padding-bottom: 10px;
+}
+#blocoFooter a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    line-height: 1em; /*altura entre linhas*/
+}
+
+footer .horario{
+    box-sizing: border-box;
+    padding: 10px;
+}
+footer .horario div p{
+    display: flex; /*colocando flex, para centralizar*/
+    align-items: center; /*a imagem com o paragrafo*/
+}
+footer .horario img{
+    width: 35px;
+    margin-left: 5px;
+}
+
+footer .local{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+footer .local img{
+    width: 30px;
+    height: 30px;
+}
+
+footer .sociais{
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer .sociais img{
+    width: 50px; height: 50px;
+}
+
+footer .sociais #div2 p{
+    display: block; /*colocando block, para centralizar*/
+    align-items: center; /*a imagem com o paragrafo*/
+    margin-top: 5px;
+}
+footer .sociais #div2 img{
+    width: 20px; height: 20px; margin-right: 5px;
+}
+
+
+
+footer .scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+#botao-top {
+    cursor: pointer;
+}

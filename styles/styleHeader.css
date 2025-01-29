@@ -1,0 +1,186 @@
+@charset "UTF8";
+
+
+:root{
+    --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black;
+    --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa, 0 0 30px #0085FF;
+    --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
+    
+}
+
+
+.todososHeaders{
+    position: sticky; /*grudavel*/
+    top: -1px;
+    z-index: 1; /*Assim, ele ficará na frente de tds*/
+
+    display: flex; /*coloquei na lateral os icones*/
+    justify-content: space-between; /*espaçamento igual*/
+    box-shadow: 0px 0px 10px black;
+    width: 100vw; /* 100% da largura da viewport */
+    height: 100vh; /* 100% da altura da viewport */
+
+    background-color: rgba(128, 128, 128, 0.253);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    /*Auto: imagem automatica
+    Contain: a imagem 100% exibida, mas distorce
+    Cover: ele adapta a imagem em todo, de acordo
+    com o tamanho do navegador,
+    box-shadow: 0px 0px 10px black;*/
+}
+
+.titulosPrincipal{ /*todos os titulos*/
+    text-align: center;
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o ponto de ancoragem para o centro */
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 30px;
+}
+header .effect{
+    margin: 20px 50px 0px 10px;
+}
+header #menuResponsivo{ /*ainda vou fzr*/
+    display: none;
+}
+header a{
+    text-decoration: none;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2em;
+}
+header a:hover{
+    color: #0085FF;
+    border-top: 3px solid #0085FF; padding-top: 10px;
+    
+}
+
+
+
+.headerIndex{ /*Primeira página*/
+    background-image: url(/imgs/oficina.jpg);
+}
+.headerIndexH1 h1{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlue);
+    font-size: 3em;
+    font-weight: 100;
+}
+.headerIndexH1 h3{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlack);
+    padding: 30px;
+    font-size: 2.1em;
+    font-weight: 100;
+}
+.headerIndexH1 p{
+    color: white;
+    font-size: 0.8em;
+}
+
+
+
+.headerServiços{ /*Página de Serviços*/
+    background-image: url(/imgs/motorServiço.jpeg);
+}
+.headerServiçosh1 h1{
+    color: red;
+    text-shadow: var(--efeitoBrilhanteRed);
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
+
+.headerBlog{ /*Página do Blog*/
+    background-image: url(/imgs/blog.webp);
+}
+.headerBlogH1 h1{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlue);
+    font-size: 3em;
+    font-weight: 100;
+}
+.headerBlogH1 h3{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlack);
+    font-size: 2em;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+
+
+.headerQSomos{ /*Página do Quem Somos*/
+    background-image: url(/imgs/fotodeCarros.webp);
+}
+.headerQSomosH1 h1{
+    color: red;
+    text-shadow: var(--efeitoBrilhanteRed);
+    font-size: 3em;
+    font-weight: bold;
+}
+.headerQSomosH1 h3{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlack);
+    padding: 30px;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+
+
+.headerMarcas{ /*Página das Marcas*/
+    background-image: url(/imgs/fotoFerrari.jpg);
+}
+.headerMarcasH1 h1{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlue);
+    font-size: 3em;
+    font-weight: 100;
+}
+.headerMarcasH1 h3{
+    color: white;
+    text-shadow: var(--efeitoBrilhanteBlack);
+    padding: 30px;
+    font-size: 2.1em;
+    font-weight: 100;
+}
+
+
+
+.headerLCar{ /*Página do Lava Car*/
+    background-image: url(/imgs/lavaCar.avif);
+}
+.headerLCarH1 h1{
+    color: red;
+    text-shadow: var(--efeitoBrilhanteRed);
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+
+
+.headerContatos{ 
+    background-image: url(/imgs/Imagem\ do\ WhatsApp\ de\ 2025-01-23\ à\(s\)\ 16.15.28_ecd2abc6.jpg);
+}
+.headerContatosh1 h1{
+    color: white;
+    text-shadow: 0 0 5px blue, 0 0 10px black, 0 0 20px blue, 0 0 30px black; /* Efeito brilhante */
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 5%;
+}

@@ -114,26 +114,50 @@ main #curiosidades img{
 
 /*Pagina quem somos*/
 #qSomos{
+    width: 99.7%;
+    box-sizing: content-box;
+}
+.container{
     display: flex;
     text-align: center; 
-    padding: 20px; margin: 15% 0% 1%; 
-    box-sizing: content-box;
+    padding: 20px; margin: 6% 0% 1%; 
+    width: 99%;
+    box-sizing: border-box;
+    margin: auto;
 }
 #qSomos h1{
     margin-bottom: 30px;
     color: red;
     text-shadow: var(--efeitoBrilhanteRed);
-
 }
-#qSomos h4{
+#qSomos h4{ /*texto*/
     font-weight: 100;
     text-align: center;
-    width: 600px;
+    width: 80%; /* Ajusta largura responsiva */
     margin: auto;
 }
+
+.detalhes{
+    margin: auto;
+    margin: 10px;
+}
+details{
+    border: 2px solid;
+    padding: 10px; margin: auto;
+    width: 80%; /* Ajusta largura responsiva */
+    box-sizing: border-box;
+    text-align: left;
+    cursor: pointer;
+}
+
+#imgqSomos{
+    margin: auto;
+    display: flex;
+    flex-direction: column; /*deixar a coluna em baixo*/
+}
 #imgqSomos img{
-    width: 350px;
-    padding: 10px;
+    width: 300px;
+    padding: 5px;
 }
 
 

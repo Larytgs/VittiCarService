@@ -29,7 +29,7 @@ body{
 
 /*Main Geral*/
 main{
-    width: 99.7%;
+    width: 100%;
     box-sizing: content-box;
     overflow-x: hidden;
 }

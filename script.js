@@ -7,7 +7,7 @@ const h1 = document.querySelector('.headerIndexH1, .headerServiçosh1, .headerBl
 const main = document.querySelector('.corpo');
 
 function diminuirMenu() {
-if (window.scrollY > 60) {             //telas pqna
+if (window.scrollY > 60) {             //header pqno
     menu.style.height = '110px'; 
     menu.style.position = 'fixed'; 
     menu.style.backgroundColor = 'white';
@@ -16,8 +16,8 @@ if (window.scrollY > 60) {             //telas pqna
     //img.style.width = '90px'; 
     //img.style.margin = '10px 100px';
 
-    // Condição para o tamanho da tela (responsividade)
-    if (window.innerWidth < 799) { // Tela pequena 
+    // Condição para a imagem no tamanho da tela (responsividade)
+    if (window.innerWidth < 799) { // Telas pequena 
         img.style.height = '70px'; 
         img.style.width = '70px'; 
         img.style.margin = '10px 30px';
@@ -30,7 +30,7 @@ if (window.scrollY > 60) {             //telas pqna
     main.style.margin = '25% 0% 5% 0%';
     h1.style.display = 'none';
 
-} else {                            //telas grande
+} else {                            //header grande
     menu.style.height = '100vh'; 
     menu.style.position = 'fixed'; 
 
@@ -38,8 +38,8 @@ if (window.scrollY > 60) {             //telas pqna
     //img.style.width = '150px'; 
     //img.style.margin = '10px 30px';
 
-    // Condição para o tamanho da tela (responsividade)
-    if (window.innerWidth < 799) { // Tela pequena
+    // Condição para a imagem no tamanho da tela (responsividade)
+    if (window.innerWidth < 799) { // Telas menores
         img.style.height = '100px'; 
         img.style.width = '100px'; 
         img.style.margin = '10px 30px';
@@ -52,12 +52,40 @@ if (window.scrollY > 60) {             //telas pqna
     h1.style.display = 'block';
 }
 }
+// Verifica a largura da tela e esconde o header grande se a largura for menor que 659px
+function ajustarHeaderPorTamanho(){
+    //Tirando o header grande, a partir do tamanho tablet pqno
+    if (window.innerWidth < 659){
+        menu.style.height = '110px'; 
+        menu.style.position = 'fixed'; 
+        menu.style.backgroundColor = 'white';
+        h1.style.display = 'none';
+
+        //Responsividade para a logo
+        img.style.height = '70px'; 
+        img.style.width = '70px'; 
+        img.style.margin = '10px 30px';
+    }else{
+        menu.style.height = '100vh'; 
+        menu.style.position = 'fixed';
+        
+        img.style.height = '150px'; 
+        img.style.width = '150px'; 
+        img.style.margin = '10px 30px';
+    }
+}
+
+
+// Chama a função para inicializar a página com a configuração correta
+ajustarHeaderPorTamanho();
 
 // Evento de scroll para diminuir o menu
 window.addEventListener('scroll', diminuirMenu);
 
 // Adicionando a verificação de tamanho de tela no início para aplicar o tamanho correto da logo quando carregar a página
 window.addEventListener('load', diminuirMenu);
+
+
 
 
 //Para o menu responsivo

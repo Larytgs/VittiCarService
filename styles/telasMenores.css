@@ -1071,7 +1071,7 @@
 
     /*footer*/
     footer{
-        height: 90%;
+        height: 90vh;
         text-align: center;
         overflow: hidden;
     }

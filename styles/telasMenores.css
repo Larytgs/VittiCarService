@@ -123,7 +123,7 @@
     /*header geral*/
     header img{
         width: 140px;
-        height: 140px;
+        /*apenas no js*/
     }
     header a{
         font-size: 1em;
@@ -192,13 +192,13 @@
     
     /*header geral*/
     header img{
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        /*apenas no js*/
     }
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
-    
+
     header #menuResponsivo{
         display: block;
     }
@@ -235,19 +235,19 @@
 
     /*header Primeira páginal*/
     .headerIndexH1 h1{
-        font-size: 2.5em;
+        font-size: 2.4em;
     }
     .headerIndexH1 h3{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     /*main*/
     #texto1{
-        margin-top: 15%;
-        height: 550px;
+        margin-top: 20%;
+        height: 580px;
     }
     #texto1 p{
-        width: 480px;
+        width: 430px;
         padding: 10px;
     }
     #texto1 img{
@@ -261,6 +261,9 @@
     }
 
     /*Index marcas*/
+    #marcas h1{
+        font-size: 1.9em;
+    }
     #marcas p{
         text-align: center;
         padding: 0% 6% 2% 2%; 
@@ -269,11 +272,11 @@
 
     /*Index retifica*/
     #retifica{
-        height: 90vh;
+        height: 80vh;
     }
     #retifica img{
-        width: 300px;
-        height: 300px;
+        width: 230px;
+        height: 230px;
     }
     #retifica ul{
         font-weight: 100;
@@ -286,19 +289,35 @@
 
     /*Index Serviços*/
     .blocoServ h2{
-        font-size: 1em;
+        font-size: 0.9em;
         align-items: center;
+    }
+
+
+    /*footer*/
+    footer h1{
+        font-size: 1.2em;
+    }
+    footer h3{
+        font-size: 1.1em;
+    }
+    footer .local div{
+        width: 200px;
+    }
+    footer .sociais img{
+        width: 40px; height: 40px;
     }
     
 }
 
-@media all and (min-width: 530px) and (max-width: 799px) { /*para tablets pqnos*/ 
+@media all and (min-width: 660px) and (max-width: 799px) { /*para tablets pqnos*/ 
 
     /*header geral*/
     header img{
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        /*apenas no js*/
     }
+
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
@@ -306,44 +325,147 @@
         display: block;
     }
     header #menuResponsivo img{
-        width: 30px; height: 30px;
+        width: 40px; height: 40px;
         cursor: pointer;
         margin-top: 35px;
         margin-right: 20px;
     }
     header #menuResponsivo #menuzinho{
-        display: none; /* Esconde o menu inicialmente */
         position: absolute;
-
-        background-color: #0000ff;
-        height: 100px; width: 50px;
+        display: none;  /* Esconde o menu ao carregar a página */
+        height: 100px; width: 100px;
         margin-top: 0%;
-        margin-left: 30%;
+        margin-left: -45px;
         text-align: center;
     }
-    /*header #menuResponsivo #menuzinho:hover{
-        display: block;
-        position: absolute;
-
-        background-color: blue;
-        height: 100px; width: 110px;
-        margin-top: 0%;
-        margin-left: -30%;
-        text-align: center;
-    }*/
+   
     #menuzinho a{
         position: relative;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 8px;
+        padding-top: 8px; margin: 1px;
         font: 100 0.9em var(--paragrafos);
-        color: white;
+        background-color: rgba(255, 255, 255, 0.589);
+        color: black;
     }
     #menuzinho a:hover{
         text-decoration: underline;
     }
+
+    /*header Primeira páginal*/
+    .headerIndexH1 h1{
+        font-size: 2.1em;
+    }
+    .headerIndexH1 h3{
+        font-size: 1.1em;
+    }
+
+    /*main*/
+    #texto1{
+        margin-top: 37%;
+        height: 550px;
+        width: 99.8%;
+    }
+    #texto1 section{
+        padding: 20px; 
+    }
+    #texto1 h1{
+        padding-top: 10px;
+    }
+    #texto1 p{
+        width: 90%;
+        padding: 20px;
+    }
+    #texto1 #imgferramentas{
+        display: none;
+    }
+
+    /*imagem do motor suspensa no Index*/
+    #imagemMotor img{ 
+        width: 310px;
+        height: 310px;
+    }
+
+    /*Index marcas*/
+    #marcas{
+        margin: 20% 0% 1%; /*margem em baixo do motor*/
+    }
+    #marcas h1{
+        font-size: 1.8em;
+    }
+    #marcas p{
+        text-align: center;
+        padding: 0% 6% 2% 2%; 
+        white-space: normal;
+    }
+
+    /*Index retifica*/
+    #retifica{
+        height: 80vh;
+    }
+    #retifica h1{
+        font-size: 1.8em;
+    }
+    #retifica img{
+        width: 200px;
+        height: 200px;
+    }
+    #retifica ul{
+        font-weight: 100;
+    }
+
+    /*Index Disco de freio*/
+    #freio h1{
+        font-size: 1.8em;
+    }
+    #blocoFreio{
+        margin-right: 6%;
+        border: 1px solid blue;
+    }
+    #blocoDetals{
+        margin-right: 6%;  /*alinhando o bloco no meio*/
+    }
+    #freio img{
+        width: 250px;
+    }
+    #freio h3{
+        display: none;
+    }
+
+    /*Index Serviços*/
+    .blocoServ{
+        display: block;
+        columns: 2;
+        align-items: flex-start;
+    }
+    .blocoServ div{
+        align-items: flex-start;
+    }
+    .blocoServ h2{
+        font-size: 0.9em;
+        align-items: center;
+    }
+
+
+    /*footer*/
+    footer h1{
+        font-size: 1.2em;
+    }
+    footer h3{
+        font-size: 1.1em;
+    }
+    footer .local div{
+        width: 200px;
+    }
+    footer .sociais img{
+        width: 40px; height: 40px;
+    }
+    
+}
+
+@media all and (min-width: 530px ) and (max-width: 659px){
     
 }
 

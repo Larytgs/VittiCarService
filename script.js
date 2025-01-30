@@ -7,32 +7,57 @@ const h1 = document.querySelector('.headerIndexH1, .headerServiçosh1, .headerBl
 const main = document.querySelector('.corpo');
 
 function diminuirMenu() {
-if (window.scrollY > 60) {
+if (window.scrollY > 60) {             //telas pqna
     menu.style.height = '110px'; 
     menu.style.position = 'fixed'; 
     menu.style.backgroundColor = 'white';
 
-    img.style.height = '90px'; 
-    img.style.width = '90px'; 
-    img.style.margin = '10px 100px';
+    //img.style.height = '90px'; 
+    //img.style.width = '90px'; 
+    //img.style.margin = '10px 100px';
+
+    // Condição para o tamanho da tela (responsividade)
+    if (window.innerWidth < 799) { // Tela pequena 
+        img.style.height = '70px'; 
+        img.style.width = '70px'; 
+        img.style.margin = '10px 30px';
+    } else { // Para telas maiores
+        img.style.height = '90px'; 
+        img.style.width = '90px'; 
+        img.style.margin = '10px 100px';
+    }
 
     main.style.margin = '25% 0% 5% 0%';
-
     h1.style.display = 'none';
-} else {
+
+} else {                            //telas grande
     menu.style.height = '100vh'; 
     menu.style.position = 'fixed'; 
 
-    img.style.height = '150px'; 
-    img.style.width = '150px'; 
-    img.style.margin = '10px 30px';
+    //img.style.height = '150px'; 
+    //img.style.width = '150px'; 
+    //img.style.margin = '10px 30px';
+
+    // Condição para o tamanho da tela (responsividade)
+    if (window.innerWidth < 799) { // Tela pequena
+        img.style.height = '100px'; 
+        img.style.width = '100px'; 
+        img.style.margin = '10px 30px';
+    } else { // Para telas maiores
+        img.style.height = '150px'; 
+        img.style.width = '150px'; 
+        img.style.margin = '10px 30px';
+    }
 
     h1.style.display = 'block';
 }
 }
 
+// Evento de scroll para diminuir o menu
 window.addEventListener('scroll', diminuirMenu);
 
+// Adicionando a verificação de tamanho de tela no início para aplicar o tamanho correto da logo quando carregar a página
+window.addEventListener('load', diminuirMenu);
 
 
 //Para o menu responsivo

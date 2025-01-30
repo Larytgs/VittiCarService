@@ -114,16 +114,15 @@ main #curiosidades img{
 
 /*Pagina quem somos*/
 #qSomos{
-    width: 99.7%;
+    width: 100%;
     box-sizing: content-box;
 }
 .container{
     display: flex;
-    text-align: center; 
-    padding: 20px; margin: 6% 0% 1%; 
-    width: 99%;
-    box-sizing: border-box;
+    padding: 10px; margin: 6% 0% 1%; 
+    width: 100%;
     margin: auto;
+    box-sizing: border-box;
 }
 #qSomos h1{
     margin-bottom: 30px;
@@ -133,8 +132,8 @@ main #curiosidades img{
 #qSomos h4{ /*texto*/
     font-weight: 100;
     text-align: center;
-    width: 80%; /* Ajusta largura responsiva */
-    margin: auto;
+    margin: 0px 20px;
+    width: 85%; /* Ajusta largura responsiva */
 }
 
 .detalhes{
@@ -144,7 +143,7 @@ main #curiosidades img{
 details{
     border: 2px solid;
     padding: 10px; margin: auto;
-    width: 80%; /* Ajusta largura responsiva */
+    width: 95%; /* Ajusta largura responsiva */
     box-sizing: border-box;
     text-align: left;
     cursor: pointer;

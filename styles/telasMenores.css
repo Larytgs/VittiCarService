@@ -55,6 +55,9 @@
     }
 }
 
+
+
+
 @media all and (min-width: 960px) and (max-width: 1009px) { 
     /*header geral*/
     header a{
@@ -116,6 +119,8 @@
         font-size: 1em;
     }
 }
+
+
 
 
 @media all and (min-width: 870px) and (max-width: 959px) { /*para tablets grandes*/ 
@@ -187,6 +192,9 @@
         align-items: center;
     }
 }
+
+
+
 
 @media all and (min-width: 800px) and (max-width: 869px) { /*para tablets medios*/ 
     
@@ -309,6 +317,9 @@
     }
     
 }
+
+
+
 
 @media all and (min-width: 660px) and (max-width: 799px) { /*para tablets pqnos*/ 
 
@@ -467,6 +478,9 @@
     }
     
 }
+
+
+
 
 @media all and (min-width: 530px ) and (max-width: 659px){ /*tive que fazer outro menor*/
     /*header geral*/
@@ -655,6 +669,8 @@
         width: 40px;
     }
 }
+
+
 
 
 @media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/ 
@@ -880,6 +896,8 @@
 }
 
 
+
+
 @media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
 
     /*header geral*/
@@ -934,8 +952,8 @@
 
     /*main*/
     #texto1{
-        margin-top: 50%;
-        height: 510px;
+        margin-top: 80%;
+        height: 530px;
         width: 99.8%;
     }
     #texto1 section{
@@ -955,26 +973,26 @@
 
     /*imagem do motor suspensa no Index*/
     #imagemMotor img{ 
-        width: 300px;
-        height: 300px;
+        width: 295px;
+        height: 295px;
     }
 
     /*Index marcas*/
     #marcas{
-        margin: 25% 0% 1%; /*margem em baixo do motor*/
+        margin: 35% 0% 1%; /*margem em baixo do motor*/
     }
     #marcas h1{
         font-size: 1.6em;
     }
     #marcas p{
         text-align: center;
-        padding: 0% 6% 2% 2%; 
+        padding: 0% 11% 2% 2%; 
         white-space: normal;
     }
 
     /*Index retifica*/
     #retifica{
-        height: 120vh;
+        height: 125vh;
     }
     #retifica h1{
         font-size: 1.6em;

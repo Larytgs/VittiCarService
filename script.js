@@ -34,6 +34,19 @@ if (window.scrollY > 60) {
 window.addEventListener('scroll', diminuirMenu);
 
 
+
+//Para o menu responsivo
+function toggleMenu() {
+    let menu = document.querySelector("#menuzinho");
+    if (menu.style.display === "block") {
+        menu.style.display = "none"; // Esconder se já estiver visível
+    } else {
+        menu.style.display = "block"; // Mostrar se estiver oculto
+    }
+}
+
+
+
 //Parte da seta subindo
 const scrollToTop = () => {
     window.scrollTo({

@@ -18,9 +18,9 @@ html, body{
 
 /*Pagina de serviço e no Index*/
 #serviços{
+    width: 99.7%;
     text-align: center;
     box-sizing: content-box;
-    width: 100%;
     align-items: center;
     overflow: hidden;
 }
@@ -61,8 +61,8 @@ html, body{
 
 /*Pagina do Blog*/
 main #blog{   
-    box-sizing: content-box;
     width: 100%;
+    box-sizing: content-box;
 }
 main #curiosidades{ /*todos os blocos*/
     display: flex;
@@ -165,7 +165,7 @@ details{
 /*Pagina da Marcas*/
 .mainMarcas{
     box-sizing: content-box;
-    width: 100%;
+    width: 99.7%;
 }
 #galery{
     box-sizing: border-box;

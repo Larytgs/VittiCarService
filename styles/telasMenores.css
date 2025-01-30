@@ -11,11 +11,106 @@
 
 @media all and (min-width: 1010px) and (max-width: 1115px) {
 
-}
+    /*main*/
+    #texto1{
+        margin-top: 14%;
+        height: 500px;
+    }
+    #texto1 p{
+        width: 550px;
+    }
+    #texto1 img{
+        width: 400px;
+    }
 
+    /*imagem do motor suspensa no Index*/
+    #imagemMotor img{ 
+        width: 350px;
+        height: 350px;
+    }
+
+    /*Index retifica*/
+    #retifica{
+        height: 90vh;
+    }
+    #retifica img{
+        width: 300px;
+        height: 300px;
+    }
+    #retifica ul{
+        font-weight: 100;
+    }
+
+    /*Index Disco de freio*/
+    #freio{
+        height: 90vh;
+    }
+    #freio img{
+        width: 300px;
+    }
+
+    /*Index Serviços*/
+    .blocoServ h2{
+        font-size: large;
+    }
+}
 
 @media all and (min-width: 990px) and (max-width: 1009px) { 
 
+    /*header Primeira páginal*/
+    .headerIndexH1 h1{
+        font-size: 2.8em;
+    }
+    .headerIndexH1 h3{
+        font-size: 2em;
+    }
+
+    /*main*/
+    #texto1{
+        margin-top: 15%;
+        height: 500px;
+    }
+    #texto1 p{
+        width: 550px;
+    }
+    #texto1 img{
+        width: 350px;
+    }
+
+    /*imagem do motor suspensa no Index*/
+    #imagemMotor img{ 
+        width: 350px;
+        height: 350px;
+    }
+
+    /*Index marcas*/
+    #marcas p{
+        text-align: center;
+        padding: 0% 6% 2% 2%; 
+        white-space: normal;
+    }
+
+    /*Index retifica*/
+    #retifica{
+        height: 90vh;
+    }
+    #retifica img{
+        width: 300px;
+        height: 300px;
+    }
+    #retifica ul{
+        font-weight: 100;
+    }
+
+    /*Index Disco de freio*/
+    #freio img{
+        width: 300px;
+    }
+
+    /*Index Serviços*/
+    .blocoServ h2{
+        font-size: large;
+    }
 }
 
 

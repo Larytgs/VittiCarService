@@ -42,6 +42,7 @@ main h1{
 
 /*Index*/
 #texto1{
+    margin-top: 5%;
     height: 550px;
     width: 100%;
     box-sizing: content-box;
@@ -68,7 +69,7 @@ main h1{
     width: 645px;
 }
 #texto1 img{
-    height: 250px;
+    width: 600px;
 }
 
 /*imagem do motor suspensa no Index*/
@@ -89,19 +90,20 @@ main h1{
 #marcas{
     text-align: center; 
     padding: 20px; margin: 16% 0% 1%; /*margem em cima do motor*/
-    height: 80vh;
+    width: 100%;
     box-sizing: content-box;
     white-space: nowrap; /*impede que o texto seja quebrado em várias linhas automaticamente.*/
 }
 #marcas h1{
     margin-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 40px;
     color: red;
     text-shadow: var(--efeitoBrilhanteRed);
     font-style: italic;
 }
 #marcas p{
-    margin-bottom: 2%;
+    text-align: center;
+    padding: 0% 2% 3% 2%;
 }
 #marcas img{
     width: 100px; height: 100px;
@@ -134,7 +136,7 @@ main h1{
 }
 
 #botaoMarcas{
-    margin-top: 50px; 
+    margin-top: 50px; margin-bottom: 20px; 
 }
 #botaoMarcas input{
     padding: 10px 15px;
@@ -171,7 +173,7 @@ main h1{
     padding-top: 20px;
 }
 #retifica p{
-    padding-bottom: 50px;
+    padding: 0px 10px 50px 10px;
 }
 #retifica div{
     display: flex;
@@ -209,7 +211,6 @@ hr{
     
     box-sizing: content-box;
     width: 100%;
-    height: 80vh;
 }
 #freio h1{
     color: white;
@@ -219,7 +220,7 @@ hr{
     margin-top: 15px;
 }
 #freio p{
-    padding-bottom: 50px;
+    padding: 0px 10px 50px 10px;
     text-align: center;
 }
 #blocoFreio{
@@ -229,8 +230,7 @@ hr{
     text-align: center;
     
     box-sizing: border-box;
-    width: 90%;
-    margin: 0 auto;
+    margin-right: 5%;
 }
 #freio img{
     width: 350px;

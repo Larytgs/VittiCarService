@@ -1045,7 +1045,8 @@
     /*Index Serviços*/
     #serviço{
         overflow: hidden;
-        height: 90%;
+        height: 90vh;  /*arrumar*/
+        overflow: hidden;
     }
     #serviço h1{
         font-size: 1.6em;
@@ -1071,7 +1072,7 @@
 
     /*footer*/
     footer{
-        height: 90vh;
+        height: 90vh;  /*arrumar*/
         text-align: center;
         overflow: hidden;
     }

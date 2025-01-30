@@ -198,44 +198,35 @@
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
+    
     header #menuResponsivo{
         display: block;
     }
     header #menuResponsivo img{
-        width: 30px; height: 30px;
+        width: 40px; height: 40px;
         cursor: pointer;
         margin-top: 35px;
         margin-right: 20px;
     }
     header #menuResponsivo #menuzinho{
-        display: none; /* Esconde o menu inicialmente */
         position: absolute;
-
-        background-color: #0000ff;
-        height: 100px; width: 50px;
+        display: none;  /* Esconde o menu ao carregar a página */
+        height: 100px; width: 100px;
         margin-top: 0%;
-        margin-left: 30%;
+        margin-left: -45px;
         text-align: center;
     }
-    /*header #menuResponsivo #menuzinho:hover{
-        display: block;
-        position: absolute;
-
-        background-color: blue;
-        height: 100px; width: 110px;
-        margin-top: 0%;
-        margin-left: -30%;
-        text-align: center;
-    }*/
+   
     #menuzinho a{
         position: relative;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 8px;
+        padding-top: 8px; margin: 1px;
         font: 100 0.9em var(--paragrafos);
-        color: white;
+        background-color: rgba(255, 255, 255, 0.589);
+        color: black;
     }
     #menuzinho a:hover{
         text-decoration: underline;

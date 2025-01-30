@@ -38,12 +38,20 @@ window.addEventListener('scroll', diminuirMenu);
 //Para o menu responsivo
 function toggleMenu() {
     let menu = document.querySelector("#menuzinho");
+
     if (menu.style.display === "block") {
-        menu.style.display = "none"; // Esconder se já estiver visível
+        menu.style.display = "none";
     } else {
-        menu.style.display = "block"; // Mostrar se estiver oculto
+        menu.style.display = "block";
     }
 }
+
+// Fecha o menu quando um link for clicado
+document.querySelectorAll("#menuzinho a").forEach(link => {
+    link.addEventListener("click", function() {
+        document.querySelector("#menuzinho").style.display = "none";
+    });
+});
 
 
 

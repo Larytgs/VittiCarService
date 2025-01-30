@@ -661,9 +661,10 @@
 
     /*header geral*/
     header img{
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        /*apenas no js*/
     }
+
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
@@ -671,43 +672,177 @@
         display: block;
     }
     header #menuResponsivo img{
-        width: 30px; height: 30px;
+        width: 40px; height: 40px;
         cursor: pointer;
         margin-top: 35px;
         margin-right: 20px;
     }
     header #menuResponsivo #menuzinho{
-        display: none; /* Esconde o menu inicialmente */
         position: absolute;
-
-        background-color: #0000ff;
-        height: 100px; width: 50px;
+        display: none;  /* Esconde o menu ao carregar a página */
+        height: 100px; width: 100px;
         margin-top: 0%;
-        margin-left: 30%;
+        margin-left: -45px;
         text-align: center;
     }
-    /*header #menuResponsivo #menuzinho:hover{
-        display: block;
-        position: absolute;
-
-        background-color: blue;
-        height: 100px; width: 110px;
-        margin-top: 0%;
-        margin-left: -30%;
-        text-align: center;
-    }*/
+   
     #menuzinho a{
         position: relative;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 8px;
+        padding-top: 8px; margin: 1px;
         font: 100 0.9em var(--paragrafos);
-        color: white;
+        background-color: rgba(255, 255, 255, 0.589);
+        color: black;
     }
     #menuzinho a:hover{
         text-decoration: underline;
+    }
+
+    /*header Primeira páginal*/
+    .headerIndexH1 h1{
+        display: none;
+    }
+    .headerIndexH1 h3{
+        display: none;
+    }
+
+    /*main*/
+    #texto1{
+        margin-top: 50%;
+        height: 490px;
+        width: 99.8%;
+    }
+    #texto1 section{
+        padding: 20px; 
+    }
+    #texto1 h1{
+        padding-top: 10px;
+    }
+    #texto1 p{
+        width: 90%;
+        padding: 20px;
+        margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
+    }
+    #texto1 #imgferramentas{
+        display: none;
+    }
+
+    /*imagem do motor suspensa no Index*/
+    #imagemMotor img{ 
+        width: 300px;
+        height: 300px;
+    }
+
+    /*Index marcas*/
+    #marcas{
+        margin: 20% 0% 1%; /*margem em baixo do motor*/
+    }
+    #marcas h1{
+        font-size: 1.6em;
+    }
+    #marcas p{
+        text-align: center;
+        padding: 0% 6% 2% 2%; 
+        white-space: normal;
+    }
+
+    /*Index retifica*/
+    #retifica{
+        height: 105vh;
+    }
+    #retifica h1{
+        font-size: 1.6em;
+    }
+    #retifica p{
+        padding-bottom: 20px;
+    }
+    #retifica div{
+        display: block;
+        margin: 0%;
+    }
+    #retifica img{
+        width: 200px;
+        height: 200px;
+        margin: 0px 0px 30px;
+    }
+    #retifica ul{
+        columns: 2;
+        width: 500px;
+        font-weight: 100;
+    }
+
+
+    /*Index Disco de freio*/
+    #freio h1{
+        font-size: 1.6em;
+    }
+    #blocoFreio{
+        margin-right: 6%;
+    }
+    #blocoDetals{
+        margin-right: 0%;  /*alinhando o bloco no meio*/
+    }
+    #freio img{
+        width: 250px;
+        margin: 0px 10px;
+    }
+    #freio h3{
+        display: none;
+    }
+
+    /*Index Serviços*/
+    #serviço h1{
+        font-size: 1.6em;
+    }
+    .blocoServ{
+        display: ruby;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+    .blocoServ div{
+        margin: 0%; 
+        margin-bottom: 10px;
+    }
+    .blocoServ h2{
+        font-size: 0.9em;
+        align-items: center;
+    }
+    #botaoServiços{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    /*footer*/
+    footer{
+        height: 80vh;
+    }
+    footer h1{
+        font-size: 1.2em;
+    }
+    footer h3{
+        font-size: 1.1em;
+    }
+    footer .local div{
+        width: 200px;
+    }
+    footer .sociais img{
+        width: 35px; height: 35px;
+    }
+    footer .sociais #div2{
+        display: none;
+    }
+
+    footer .scroll-top {
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+    }
+    footer .scroll-top img{
+        width: 40px;
     }
 }
 
@@ -716,9 +851,10 @@
 
     /*header geral*/
     header img{
-        width: 140px;
-        height: 140px;
+        width: 100px;
+        /*apenas no js*/
     }
+
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
@@ -726,43 +862,177 @@
         display: block;
     }
     header #menuResponsivo img{
-        width: 30px; height: 30px;
+        width: 40px; height: 40px;
         cursor: pointer;
         margin-top: 35px;
         margin-right: 20px;
     }
     header #menuResponsivo #menuzinho{
-        display: none; /* Esconde o menu inicialmente */
         position: absolute;
-
-        background-color: #0000ff;
-        height: 100px; width: 50px;
+        display: none;  /* Esconde o menu ao carregar a página */
+        height: 100px; width: 100px;
         margin-top: 0%;
-        margin-left: 30%;
+        margin-left: -45px;
         text-align: center;
     }
-    /*header #menuResponsivo #menuzinho:hover{
-        display: block;
-        position: absolute;
-
-        background-color: blue;
-        height: 100px; width: 110px;
-        margin-top: 0%;
-        margin-left: -30%;
-        text-align: center;
-    }*/
+   
     #menuzinho a{
         position: relative;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 8px;
+        padding-top: 8px; margin: 1px;
         font: 100 0.9em var(--paragrafos);
-        color: white;
+        background-color: rgba(255, 255, 255, 0.589);
+        color: black;
     }
     #menuzinho a:hover{
         text-decoration: underline;
+    }
+
+    /*header Primeira páginal*/
+    .headerIndexH1 h1{
+        display: none;
+    }
+    .headerIndexH1 h3{
+        display: none;
+    }
+
+    /*main*/
+    #texto1{
+        margin-top: 50%;
+        height: 490px;
+        width: 99.8%;
+    }
+    #texto1 section{
+        padding: 20px; 
+    }
+    #texto1 h1{
+        padding-top: 10px;
+    }
+    #texto1 p{
+        width: 90%;
+        padding: 20px;
+        margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
+    }
+    #texto1 #imgferramentas{
+        display: none;
+    }
+
+    /*imagem do motor suspensa no Index*/
+    #imagemMotor img{ 
+        width: 300px;
+        height: 300px;
+    }
+
+    /*Index marcas*/
+    #marcas{
+        margin: 20% 0% 1%; /*margem em baixo do motor*/
+    }
+    #marcas h1{
+        font-size: 1.6em;
+    }
+    #marcas p{
+        text-align: center;
+        padding: 0% 6% 2% 2%; 
+        white-space: normal;
+    }
+
+    /*Index retifica*/
+    #retifica{
+        height: 105vh;
+    }
+    #retifica h1{
+        font-size: 1.6em;
+    }
+    #retifica p{
+        padding-bottom: 20px;
+    }
+    #retifica div{
+        display: block;
+        margin: 0%;
+    }
+    #retifica img{
+        width: 200px;
+        height: 200px;
+        margin: 0px 0px 30px;
+    }
+    #retifica ul{
+        columns: 2;
+        width: 500px;
+        font-weight: 100;
+    }
+
+
+    /*Index Disco de freio*/
+    #freio h1{
+        font-size: 1.6em;
+    }
+    #blocoFreio{
+        margin-right: 6%;
+    }
+    #blocoDetals{
+        margin-right: 0%;  /*alinhando o bloco no meio*/
+    }
+    #freio img{
+        width: 250px;
+        margin: 0px 10px;
+    }
+    #freio h3{
+        display: none;
+    }
+
+    /*Index Serviços*/
+    #serviço h1{
+        font-size: 1.6em;
+    }
+    .blocoServ{
+        display: ruby;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+    .blocoServ div{
+        margin: 0%; 
+        margin-bottom: 10px;
+    }
+    .blocoServ h2{
+        font-size: 0.9em;
+        align-items: center;
+    }
+    #botaoServiços{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    /*footer*/
+    footer{
+        height: 80vh;
+    }
+    footer h1{
+        font-size: 1.2em;
+    }
+    footer h3{
+        font-size: 1.1em;
+    }
+    footer .local div{
+        width: 200px;
+    }
+    footer .sociais img{
+        width: 35px; height: 35px;
+    }
+    footer .sociais #div2{
+        display: none;
+    }
+
+    footer .scroll-top {
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+    }
+    footer .scroll-top img{
+        width: 40px;
     }
 }
 

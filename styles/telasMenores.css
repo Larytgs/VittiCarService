@@ -1073,6 +1073,7 @@
     footer{
         height: 90%;
         text-align: center;
+        overflow: hidden;
     }
     footer h1{
         font-size: 1.2em;

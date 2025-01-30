@@ -935,7 +935,7 @@
     /*main*/
     #texto1{
         margin-top: 50%;
-        height: 490px;
+        height: 510px;
         width: 99.8%;
     }
     #texto1 section{
@@ -961,7 +961,7 @@
 
     /*Index marcas*/
     #marcas{
-        margin: 20% 0% 1%; /*margem em baixo do motor*/
+        margin: 25% 0% 1%; /*margem em baixo do motor*/
     }
     #marcas h1{
         font-size: 1.6em;
@@ -974,15 +974,16 @@
 
     /*Index retifica*/
     #retifica{
-        height: 105vh;
+        height: 120vh;
     }
     #retifica h1{
         font-size: 1.6em;
+        padding-left: 10px; padding-right: 10px;
     }
     #retifica p{
         padding-bottom: 20px;
     }
-    #retifica div{
+    #retifica div{ /*para colocar a ul em baixo*/
         display: block;
         margin: 0%;
     }
@@ -992,8 +993,8 @@
         margin: 0px 0px 30px;
     }
     #retifica ul{
-        columns: 2;
-        width: 500px;
+        columns: 1;
+        width: 100%;
         font-weight: 100;
     }
 
@@ -1001,20 +1002,27 @@
     /*Index Disco de freio*/
     #freio h1{
         font-size: 1.6em;
+        padding-left: 10px; padding-right: 10px;
+    }
+    #freio p{
+        margin-bottom: -20px;
     }
     #blocoFreio{
-        margin-right: 6%;
+        margin-right: 0%;
+        display: block;
     }
     #blocoDetals{
-        margin-right: 0%;  /*alinhando o bloco no meio*/
+        margin: 2%;  /*alinhando o bloco no meio*/
+        width: 90%;
     }
     #freio img{
         width: 250px;
-        margin: 0px 10px;
+        margin: 0px;
     }
     #freio h3{
         display: none;
     }
+
 
     /*Index Serviços*/
     #serviço h1{
@@ -1042,15 +1050,39 @@
     /*footer*/
     footer{
         height: 80vh;
+        text-align: center;
     }
     footer h1{
         font-size: 1.2em;
     }
+    footer #blocoFooter{
+        display: block;
+        padding: 2%;
+    }
     footer h3{
         font-size: 1.1em;
     }
+
+    footer .horario{
+        display: inline-flex;
+    }
+    footer .horario .hora{
+        display: ruby; /*deixa centralizado*/
+    }
+    footer .feriado{
+        margin-top: 20px;
+    }
+
+    footer .local{
+        margin-top: 15px;
+    }
     footer .local div{
         width: 200px;
+        display: ruby; /*deixa centralizado*/
+    }
+
+    footer .sociais{
+        margin-top: 15px;
     }
     footer .sociais img{
         width: 35px; height: 35px;
@@ -1059,13 +1091,14 @@
         display: none;
     }
 
+
     footer .scroll-top {
         position: fixed;
         bottom: 10px;
         right: 20px;
     }
     footer .scroll-top img{
-        width: 40px;
+        width: 35px;
     }
 }
 

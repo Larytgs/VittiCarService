@@ -1269,11 +1269,8 @@
     }
     .blocoServ2 div{
         margin: 0%; margin-bottom: 10px; padding: 0%; padding: 10px;
-        height: 330px;
         min-width: 300px;
-        max-width: 450px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        overflow-wrap: break-word;
+        max-width: 460px;
     }
     .blocoServ2 img{ /*imagens dos serviços*/
         padding: 5px;

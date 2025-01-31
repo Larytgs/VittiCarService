@@ -995,8 +995,10 @@
 
 
 
+
     /*Pagina de serviço*/
     #serviços{
+        margin-top: 60%;
         display: flex;
         flex-direction: column;
     }
@@ -1254,8 +1256,11 @@
 
 
 
+
+
     /*Pagina de serviço*/
     #serviços{
+        margin-top: 20%;
         display: flex;
         flex-direction: column;
     }

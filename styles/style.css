@@ -29,7 +29,7 @@ body{
 
 /*Main Geral*/
 main{
-    width: 100%;
+    width: 99.88%;
     box-sizing: content-box;
     overflow-x: hidden;
 }
@@ -44,9 +44,10 @@ main h1{
 #texto1{
     margin-top: 5%;
     height: 550px;
-    width: 100%;
     box-sizing: content-box;
     background-color: rgba(128, 128, 128, 0.253);
+
+    border: 1px solid green;
 }
 #texto1 section{
     text-align: center;
@@ -89,10 +90,11 @@ main h1{
 /*Index Marcas*/
 #marcas{
     text-align: center; 
-    padding: 20px; margin: 15% 0% 1%; /*margem em baixo do motor*/
-    width: 100%;
+    margin: 15% 0% 1%; /*margem em baixo do motor*/
     box-sizing: content-box;
     white-space: nowrap; /*impede que o texto seja quebrado em várias linhas automaticamente.*/
+
+    border: 1px solid red;
 }
 #marcas h1{
     margin-bottom: 30px;
@@ -103,7 +105,6 @@ main h1{
 }
 #marcas p{
     text-align: center;
-    padding: 0% 2% 3% 2%;
 }
 #marcas img{
     width: 100px; height: 100px;
@@ -161,10 +162,10 @@ main h1{
 #retifica{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.253);
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     box-sizing: content-box;
-    width: 100%;
-    height: 80vh;
+
+    border: 1px solid blue;
 }
 #retifica h1{
     color: white;
@@ -209,9 +210,9 @@ hr{
 #freio{
     background-color: rgba(128, 128, 128, 0.253);
     padding-top: 20px; padding-bottom: 40px;
-    
     box-sizing: content-box;
-    width: 100%;
+
+    border: 1px solid green;
 }
 #freio h1{
     color: white;
@@ -263,8 +264,9 @@ hr{
 #serviço{
     text-align: center;
     box-sizing: content-box;
-    width: 100%; height: 400px;
     align-items: center;
+
+    border: 1px solid red;
 }
 #serviço h1{
     padding: 4% 0%;
@@ -292,7 +294,7 @@ hr{
 
 #botaoServiços{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px; margin-bottom: 50px;
 }
 #botaoServiços input{
     padding: 10px 15px;
@@ -313,8 +315,9 @@ footer{
 
     overflow-x: hidden;
     box-sizing: content-box;
-    width: 100%;
     height: 85vh;
+
+    border: 1px solid blue;
 }
 footer h1{
     text-align: center;

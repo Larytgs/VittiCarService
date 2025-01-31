@@ -954,7 +954,6 @@
     #texto1{
         margin-top: 80%;
         height: 530px;
-        width: 99.8%;
     }
     #texto1 section{
         padding: 20px; 
@@ -992,7 +991,7 @@
 
     /*Index retifica*/
     #retifica{
-        height: 90%;
+        padding-bottom: 20px;
     }
     #retifica h1{
         font-size: 1.6em;
@@ -1045,8 +1044,6 @@
     /*Index Serviços*/
     #serviço{
         overflow: hidden;
-        height: 90vh;  /*arrumar*/
-        overflow: hidden;
     }
     #serviço h1{
         font-size: 1.6em;
@@ -1072,9 +1069,7 @@
 
     /*footer*/
     footer{
-        height: 90vh;  /*arrumar*/
         text-align: center;
-        overflow: hidden;
     }
     footer h1{
         font-size: 1.2em;

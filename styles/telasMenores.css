@@ -17,7 +17,7 @@
         height: 500px;
     }
     #texto1 p{
-        width: 550px;
+        width: 90%;
     }
     #texto1 img{
         width: 400px;
@@ -30,9 +30,6 @@
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 90vh;
-    }
     #retifica img{
         width: 300px;
         height: 300px;
@@ -78,7 +75,7 @@
         height: 500px;
     }
     #texto1 p{
-        width: 550px;
+        width: 90%;
     }
     #texto1 img{
         width: 350px;
@@ -93,14 +90,11 @@
     /*Index marcas*/
     #marcas p{
         text-align: center;
-        padding: 0% 6% 2% 2%; 
+        padding: 2%; 
         white-space: normal;
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 90vh;
-    }
     #retifica img{
         width: 300px;
         height: 300px;
@@ -149,7 +143,7 @@
         height: 550px;
     }
     #texto1 p{
-        width: 480px;
+        width: 90%;
         padding: 10px;
     }
     #texto1 img{
@@ -165,14 +159,11 @@
     /*Index marcas*/
     #marcas p{
         text-align: center;
-        padding: 0% 6% 2% 2%; 
+        padding: 2%; 
         white-space: normal;
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 90vh;
-    }
     #retifica img{
         width: 300px;
         height: 300px;
@@ -754,9 +745,6 @@
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 120vh;
-    }
     #retifica h1{
         font-size: 1.6em;
         padding-left: 10px; padding-right: 10px;

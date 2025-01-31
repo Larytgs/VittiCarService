@@ -18,11 +18,13 @@ html, body{
 
 /*Pagina de serviço e no Index*/
 #serviços{
-    width: 99.7%;
+    width: 99.86%;
     text-align: center;
     box-sizing: content-box;
     align-items: center;
     overflow: hidden;
+
+    border: 1px solid red;
 }
 #serviços h1{
     padding: 2% 0% 4%;
@@ -30,7 +32,7 @@ html, body{
     color: red;
     text-shadow: var(--efeitoBrilhanteRed);
 }
-.blocoServ{
+.blocoServ2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -39,21 +41,22 @@ html, body{
     width: 95%;
     margin: 0 auto;
 }
-.blocoServ div{
+.blocoServ2 div{
     width: 300px;
     padding: 5px; padding-bottom: 10px;
     margin: 5px;
+    text-align: center;
     box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
 }
-.blocoServ img{ /*imagens dos serviços*/
+.blocoServ2 img{ /*imagens dos serviços*/
     width: 200px;
     height: 200px;
     border-radius: 10%;
 }
-.blocoServ h2{
+.blocoServ2 h2{
     font-size: 1.2em;
 }
-.blocoServ p{
+.blocoServ2 p{
     font-size: 1em;
 }
 

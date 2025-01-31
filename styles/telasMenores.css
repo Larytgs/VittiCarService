@@ -50,6 +50,18 @@
     .blocoServ h2{
         font-size: large;
     }
+
+
+
+    /*Pagina de serviço e no Index*/
+    .serviços{
+        margin-top: 18%;
+        background-color: #0085FF;
+    }
+
+
+
+
 }
 
 
@@ -111,6 +123,13 @@
     /*Index Serviços*/
     .blocoServ h2{
         font-size: 1em;
+    }
+
+
+    /*Pagina de serviço e no Index*/
+    #serviços{
+        margin-top: 18%;
+        background-color: #0085FF;
     }
 }
 

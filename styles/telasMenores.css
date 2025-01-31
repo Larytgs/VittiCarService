@@ -544,10 +544,10 @@
         display: inline-block;
         columns: 2;
         width: 95%;
-        height: 100%;
     }
     .blocoServ2 div{
         margin: 0%;
+        height: 350px;
     }
     .blocoServ2 img{ /*imagens dos serviços*/
         padding: 5px;
@@ -741,6 +741,35 @@
     footer .scroll-top img{
         width: 40px;
     }
+
+
+
+    /*Pagina de serviço*/
+    #serviços{
+        margin-top: 45%;
+        display: block;
+        align-items: center;
+    }
+    .blocoServ2{
+        display: inline-block;
+        columns: 2;
+        width: 100%;
+        margin: auto;
+    }
+    .blocoServ2 div{
+        margin: 0%;
+        height: 350px;
+        width: 260px;
+    }
+    .blocoServ2 img{ /*imagens dos serviços*/
+        padding: 5px;
+    }
+    .blocoServ2 p{
+        padding: 5px;
+    }
+
+
+    
 }
 
 
@@ -963,6 +992,37 @@
     footer .scroll-top img{
         width: 35px;
     }
+
+
+
+    /*Pagina de serviço*/
+    #serviços{
+        margin-top: 55%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blocoServ2{
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens no eixo horizontal */
+        gap: 15px; /* Espaçamento entre os itens */
+        max-width: 500px; /* Ajusta a largura máxima */
+    }
+    .blocoServ2 div{
+        margin: 0%; padding: 0%; padding: 10px;
+        height: 310px;
+        min-width: 400px;
+        max-width: 450px;
+    }
+    .blocoServ2 img{ /*imagens dos serviços*/
+        padding: 5px;
+    }
+    .blocoServ2 p{
+        padding: 5px;
+    }
+
+
+
 }
 
 
@@ -1191,5 +1251,39 @@
     footer .scroll-top img{
         width: 35px;
     }
+
+
+
+    /*Pagina de serviço*/
+    #serviços{
+        margin-top: 55%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blocoServ2{
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens no eixo horizontal */
+        gap: 15px; /* Espaçamento entre os itens */
+        max-width: 500px; /* Ajusta a largura máxima */
+    }
+    .blocoServ2 div{
+        margin: 0%; margin-bottom: 10px; padding: 0%; padding: 10px;
+        height: 330px;
+        min-width: 300px;
+        max-width: 450px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        overflow-wrap: break-word;
+    }
+    .blocoServ2 img{ /*imagens dos serviços*/
+        padding: 5px;
+    }
+    .blocoServ2 p{
+        padding: 5px;
+    }
+
+
+
+
 }
 

@@ -33,8 +33,6 @@ html, body{
     box-sizing: border-box;
     width: 95%;
     margin: 0 auto;
-
-    border: 1px solid blue;
 }
 .blocoServ2 div{
     width: 300px;

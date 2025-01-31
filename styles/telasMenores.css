@@ -279,9 +279,6 @@
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 80vh;
-    }
     #retifica img{
         width: 230px;
         height: 230px;
@@ -297,7 +294,7 @@
 
     /*Index Serviços*/
     .blocoServ h2{
-        font-size: 0.9em;
+        font-size: 1em;
         align-items: center;
     }
 
@@ -375,9 +372,8 @@
 
     /*main*/
     #texto1{
-        margin-top: 37%;
-        height: 550px;
-        width: 99.8%;
+        margin-top: 30%;
+        height: 540px;
     }
     #texto1 section{
         padding: 20px; 
@@ -408,14 +404,11 @@
     }
     #marcas p{
         text-align: center;
-        padding: 0% 6% 2% 2%; 
+        padding: 2%;
         white-space: normal;
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 80vh;
-    }
     #retifica h1{
         font-size: 1.8em;
     }
@@ -430,10 +423,6 @@
     /*Index Disco de freio*/
     #freio h1{
         font-size: 1.8em;
-    }
-    #blocoFreio{
-        margin-right: 6%;
-        border: 1px solid blue;
     }
     #blocoDetals{
         margin-right: 0%;  /*alinhando o bloco no meio*/
@@ -452,10 +441,16 @@
         columns: 2;
         align-items: flex-start;
     }
+    #servBlocao{
+        display: inline-block;
+        margin: auto;
+    }
+    .blocoServ{
+        margin: 5px 10px;
+    }
     .blocoServ div{
         align-items: flex-start;
         margin: 0%; 
-        margin-bottom: 10px;
     }
     .blocoServ h2{
         font-size: 0.9em;
@@ -536,8 +531,7 @@
     /*main*/
     #texto1{
         margin-top: 50%;
-        height: 490px;
-        width: 99.8%;
+        height: 460px;
     }
     #texto1 section{
         padding: 20px; 
@@ -569,14 +563,11 @@
     }
     #marcas p{
         text-align: center;
-        padding: 0% 6% 2% 2%; 
+        padding: 2%;
         white-space: normal;
     }
 
     /*Index retifica*/
-    #retifica{
-        height: 105vh;
-    }
     #retifica h1{
         font-size: 1.6em;
     }
@@ -641,11 +632,9 @@
 
 
     /*footer*/
-    footer{
-        height: 80vh;
-    }
     footer h1{
         font-size: 1.2em;
+        margin-top: 10px;
     }
     footer h3{
         font-size: 1.1em;
@@ -729,7 +718,6 @@
     #texto1{
         margin-top: 50%;
         height: 510px;
-        width: 99.8%;
     }
     #texto1 section{
         padding: 20px; 
@@ -761,7 +749,7 @@
     }
     #marcas p{
         text-align: center;
-        padding: 0% 6% 2% 2%; 
+        padding: 2%; 
         white-space: normal;
     }
 
@@ -775,6 +763,8 @@
     }
     #retifica p{
         padding-bottom: 20px;
+        padding: 2%;
+        white-space: normal;
     }
     #retifica div{ /*para colocar a ul em baixo*/
         display: block;
@@ -842,7 +832,6 @@
 
     /*footer*/
     footer{
-        height: 80vh;
         text-align: center;
     }
     footer h1{

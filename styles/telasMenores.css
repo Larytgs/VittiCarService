@@ -997,7 +997,6 @@
 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 55%;
         display: flex;
         flex-direction: column;
     }
@@ -1172,6 +1171,7 @@
     }
 
 
+
     /*Index Serviços*/
     #serviço{
         overflow: hidden;
@@ -1256,7 +1256,6 @@
 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 55%;
         display: flex;
         flex-direction: column;
     }

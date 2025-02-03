@@ -512,12 +512,12 @@
         text-decoration: underline;
     }
 
-    /*header Primeira páginal*/
+    /*header titulos*/
     .headerIndexH1, .titulosPrincipal h1{
-        display: none;
+        font-size: 2.2em;
     }
     .headerIndexH1, .titulosPrincipal h3{
-        display: none;
+        font-size: 1.3em;
     }
 
     /*main*/
@@ -665,6 +665,14 @@
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
+    
+    .headerIndexH1, .titulosPrincipal h1{
+        font-size: 1.7em;
+    }
+    .headerIndexH1, .titulosPrincipal h3{
+        font-size: 1.2em;
+    }
+
     header #menuResponsivo{
         display: block;
     }
@@ -698,13 +706,7 @@
         text-decoration: underline;
     }
 
-    /*header titulos*/
-    .headerIndexH1, .titulosPrincipal h1{
-        display: none;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        display: none;
-    }
+    
 
     /*main*/
     #texto1{
@@ -897,6 +899,14 @@
     header .effect{ /*menu com os nomes grandes*/
         display: none;
     }
+
+    .headerIndexH1, .titulosPrincipal h1{
+        font-size: 1.7em;
+    }
+    .headerIndexH1, .titulosPrincipal h3{
+        font-size: 1.2em;
+    }
+
     header #menuResponsivo{
         display: block;
     }
@@ -930,13 +940,7 @@
         text-decoration: underline;
     }
 
-    /*header Primeira páginal*/
-    .headerIndexH1, .titulosPrincipal h1{
-        display: none;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        display: none;
-    }
+   
 
     /*main*/
     #texto1{

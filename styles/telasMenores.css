@@ -833,8 +833,18 @@
         font-size: 1.1em;
     }
 
+    footer #div1{
+        display: flex;
+    }
+    footer #div1 div{
+        margin: 5px;
+    }
+    footer #div2{
+        display: ruby;
+    }
+
     footer .horario{
-        display: inline-flex;
+        display: block;
     }
     footer .horario .hora{
         display: ruby; /*deixa centralizado*/
@@ -1065,6 +1075,16 @@
         font-size: 1.1em;
     }
 
+    footer #div1{
+        display: flex;
+    }
+    footer #div1 div{
+        margin: 5px;
+    }
+    footer #div2{
+        display: ruby;
+    }
+    
     footer .horario{
         display: inline-flex;
     }

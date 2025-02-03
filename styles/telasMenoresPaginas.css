@@ -616,7 +616,7 @@
     }
     #blog h1{
         display: block;
-        color: blue;
+        color: red;
         text-shadow: var(--efeitoBrilhanteRed);
     }
     #curiosidades{

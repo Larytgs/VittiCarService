@@ -512,10 +512,10 @@
     }
 
     /*header Primeira páginal*/
-    .headerIndexH1 h1{
+    .headerIndexH1, .titulosPrincipal h1{
         display: none;
     }
-    .headerIndexH1 h3{
+    .headerIndexH1, .titulosPrincipal h3{
         display: none;
     }
 

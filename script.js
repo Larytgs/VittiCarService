@@ -27,7 +27,7 @@ if (window.scrollY > 60) {             //header pqno
         img.style.margin = '10px 100px';
     }
 
-    //main.style.margin = '25% 0% 5% 0%';
+    main.style.margin = '25% 0% 5% 0%';
     h1.style.display = 'none';
 
 } else {                            //header grande
@@ -63,6 +63,7 @@ function ajustarHeaderPorTamanho(){
         menu.style.position = 'fixed'; 
         menu.style.backgroundColor = 'white';
         
+        main.style.margin = '0%';
         h1.style.display = 'none';
 
         //Responsividade para a logo
@@ -83,8 +84,6 @@ function ajustarHeaderPorTamanho(){
 
 // Chama a função quando a página carregar
 ajustarHeaderPorTamanho();
-// Chama a função quando a tela for redimensionada
-window.addEventListener('resize', ajustarHeaderPorTamanho);
 
 // Evento de scroll para diminuir o menu
 window.addEventListener('scroll', diminuirMenu);

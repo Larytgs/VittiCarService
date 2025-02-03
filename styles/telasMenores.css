@@ -498,7 +498,6 @@
     }
     #menuzinho a:hover{
         text-decoration: underline;
-        background-color: #0084ff57;
     }
 
     /*header Primeira páginal*/
@@ -701,7 +700,6 @@
     }
     #menuzinho a:hover{
         text-decoration: underline;
-        background-color: #0084ff57;
     }
 
     /*header Primeira páginal*/
@@ -936,7 +934,6 @@
     }
     #menuzinho a:hover{
         text-decoration: underline;
-        background-color: #0084ff57;
     }
 
     /*header Primeira páginal*/
@@ -1210,7 +1207,6 @@
     }
     #menuzinho a:hover{
         text-decoration: underline;
-        background-color: #0084ff57;
     }
 
     /*header Primeira páginal*/
@@ -1430,7 +1426,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 30%;
+        margin-top: 40%;
         
     }
     #curiosidades{

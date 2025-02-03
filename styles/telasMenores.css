@@ -1075,6 +1075,9 @@
         font-size: 1.1em;
     }
 
+    footer .horario{
+        display: block;
+    }
     footer #div1{
         display: flex;
     }
@@ -1085,9 +1088,6 @@
         display: ruby;
     }
     
-    footer .horario{
-        display: inline-flex;
-    }
     footer .horario .hora{
         display: ruby; /*deixa centralizado*/
     }

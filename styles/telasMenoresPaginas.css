@@ -49,7 +49,20 @@
 
 
 
-
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 14%;
+    }
+    #lavaCar #groupLCar{
+        width: 90%;
+    }
+    #groupLCar img{
+        width: 400px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
+    }
 }
 
 
@@ -97,6 +110,23 @@
     #galery #fotos{
         display: block;
         columns: 3;
+    }
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 20%;
+    }
+    #lavaCar #groupLCar{
+        width: 93%;
+    }
+    #groupLCar img{
+        width: 400px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
     }
 }
 
@@ -159,6 +189,23 @@
     #galery #fotos{
         display: block;
         columns: 3;
+    }
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 25%;
+    }
+    #lavaCar #groupLCar{
+        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+    }
+    #groupLCar img{
+        width: 400px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
     }
 
 }
@@ -226,6 +273,24 @@
         display: block;
         columns: 3;
     }
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 30%;
+    }
+    #lavaCar #groupLCar{
+        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+        width: 100%;
+    }
+    #groupLCar img{
+        width: 450px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
+    }
 }
 
 
@@ -290,6 +355,25 @@
     #galery #fotos{
         display: block;
         columns: 3;
+    }
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 40%;
+    }
+    #lavaCar #groupLCar{
+        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+        width: 100%;
+        margin: 0%;
+    }
+    #groupLCar img{
+        width: 400px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
     }
 }
 
@@ -367,6 +451,28 @@
     #galery #fotos{
         display: ruby;
     }
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 40%;
+    }
+    #lavaCar #groupLCar{
+        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+        width: 100%;
+        margin: 0%;
+    }
+    #lavaCar #groupLCar ul{
+        padding-top: 0px; 
+    }
+    #groupLCar img{
+        width: 400px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
+    }
 }
 
 
@@ -438,6 +544,28 @@
     }
     #galery #fotos{
         display: contents;
+    }
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 60%;
+    }
+    #lavaCar #groupLCar{
+        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+        width: 100%;
+        margin: 0%;
+    }
+    #lavaCar #groupLCar ul{
+        padding-top: 0px; 
+    }
+    #groupLCar img{
+        width: 400px;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
     }
 }
 
@@ -514,4 +642,26 @@
         margin: 0%; margin: 20px;
     }
 
+
+
+
+    /*Pagina LavaCar*/
+    #lavaCar #top{
+        margin-top: 40%;
+    }
+    #lavaCar #groupLCar{
+        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+        width: 100%;
+        margin: 0%;
+    }
+    #lavaCar #groupLCar ul{
+        padding-top: 0px; 
+    }
+    #groupLCar img{
+        display: none;
+    }
+    #group2LCar img{
+        width: 80px;
+        margin: 10px;
+    }
 }

@@ -15,7 +15,6 @@
     }
 
 
-
     /*Pagina do Blog*/
     #blog #top{   
         margin-top: 14%;
@@ -33,7 +32,11 @@
     }
 
 
-
+    /*Pagina quem somos*/
+    #qSomos #section1{
+        margin-top: 14%;
+    }
+    
 
 }
 
@@ -68,6 +71,11 @@
         align-items: center;
     }
 
+
+    /*Pagina quem somos*/
+    #qSomos #section1{
+        margin-top: 18%;
+    }
 
 
 }
@@ -114,6 +122,13 @@
     }
 
 
+    /*Pagina quem somos*/
+    .headerQSomosH1 h3{
+        font-size: 1.8em;
+    }
+    #qSomos #section1{
+        margin-top: 25%;
+    }
 
 
 }
@@ -164,6 +179,13 @@
 
 
 
+    /*Pagina quem somos*/
+    .headerQSomosH1 h3{
+        font-size: 1.4em;
+    }
+    #qSomos #section1{
+        margin-top: 30%;
+    }
 }
 
 
@@ -211,6 +233,13 @@
 
 
 
+    /*Pagina quem somos*/
+    #qSomos #section1{
+        margin-top: 40%;
+    }
+    #qSomos h1{
+        margin-right: -80%;
+    }
 
 }
 
@@ -262,6 +291,22 @@
 
 
 
+    /*Pagina quem somos*/
+    #qSomos #section1{
+        margin-top: 55%;
+    }
+    .container{
+        display: block;
+    }
+    #imgqSomos{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+    }
+    #imgqSomos img{
+        width: 250px;
+        padding: 0px;
+    }
 
 }
 

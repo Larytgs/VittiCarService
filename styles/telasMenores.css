@@ -130,11 +130,11 @@
         padding: 4px;
     }
 
-    /*header Primeira páginal*/
-    .headerIndexH1 h1{
+    /*header titulos*/
+    .headerIndexH1, .titulosPrincipal h1{
         font-size: 2.5em;
     }
-    .headerIndexH1 h3{
+    .headerIndexH1, .titulosPrincipal h3{
         font-size: 1.3em;
     }
 
@@ -234,11 +234,11 @@
     }
 
 
-    /*header Primeira páginal*/
-    .headerIndexH1 h1{
+    /*header titulos*/
+    .headerIndexH1, .titulosPrincipal h1{
         font-size: 2.4em;
     }
-    .headerIndexH1 h3{
+    .headerIndexH1, .titulosPrincipal h3{
         font-size: 1.2em;
     }
 
@@ -354,12 +354,12 @@
         text-decoration: underline;
     }
 
-    /*header Primeira páginal*/
-    .headerIndexH1 h1{
+    /*header titulos*/
+    .headerIndexH1, .titulosPrincipal h1{
         font-size: 2.1em;
     }
-    .headerIndexH1 h3{
-        font-size: 1.1em;
+    .headerIndexH1, .titulosPrincipal h3{
+        font-size: 1.3em;
     }
 
     /*main*/

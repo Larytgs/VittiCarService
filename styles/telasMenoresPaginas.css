@@ -604,6 +604,13 @@
 
 
     /*Pagina do Blog*/
+
+    .headerBlogH1 h1{
+        display: none;
+    }
+    .headerBlogH1 h3{
+        display: none;
+    }
     #blog #top{   
         margin-top: 40%;
     }

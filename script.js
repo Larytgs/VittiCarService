@@ -11,6 +11,7 @@ if (window.scrollY > 60) {             //header pqno
     menu.style.height = '110px'; 
     menu.style.position = 'fixed'; 
     menu.style.backgroundColor = 'white';
+    menu.style.setProperty("background-color", "white", "important"); // Forçando a cor branca
 
     //img.style.height = '90px'; 
     //img.style.width = '90px'; 
@@ -53,6 +54,7 @@ if (window.scrollY > 60) {             //header pqno
     h1.style.display = 'block';
 }
 }
+
 
 
 // Verifica a largura da tela e esconde o header grande se a largura for menor que 659px

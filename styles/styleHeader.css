@@ -18,7 +18,6 @@
     justify-content: space-between; /*espaçamento igual*/
     box-shadow: 0px 0px 10px black;
     width: 100vw; /* 100% da largura da viewport */
-    height: 100vh; /* 100% da altura da viewport */
 
     background-color: rgba(128, 128, 128, 0.253);
     background-position: center;

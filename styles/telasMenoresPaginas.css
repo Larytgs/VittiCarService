@@ -308,6 +308,8 @@
         padding: 0px;
     }
 
+
+
 }
 
 
@@ -359,6 +361,17 @@
 
 
 
+    /*Pagina quem somos*/
+    #qSomos #section1{
+        margin-top: 60%;
+    }
+    .container{
+        display: block;
+    }
+    #imgqSomos{
+       display: block;
+       text-align: center;
+    }
 }
 
 
@@ -409,4 +422,15 @@
 
 
 
+    /*Pagina quem somos*/
+    #qSomos #section1{
+        margin-top: 60%;
+    }
+    .container{
+        display: block;
+    }
+    #imgqSomos{
+       display: block;
+       text-align: center;
+    }
 }

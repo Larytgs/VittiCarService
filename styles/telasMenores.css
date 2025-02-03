@@ -325,13 +325,14 @@
         text-decoration: none;
         cursor: pointer;
         width: 100%;
-        padding-top: 8px; margin: 1px;
+        padding-top: 5px; 
         font: 100 0.9em var(--paragrafos);
-        background-color: rgba(255, 255, 255, 0.589);
+        background-color: white;
         color: black;
     }
     #menuzinho a:hover{
         text-decoration: underline;
+        background-color: #0084ff57;
     }
 
 

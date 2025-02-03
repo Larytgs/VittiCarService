@@ -97,8 +97,6 @@ main #curiosidades img{
 /*Pagina quem somos*/
 #qSomos{
     box-sizing: content-box;
-
-    border: 1px solid red;
 }
 .container{
     display: flex;
@@ -106,8 +104,6 @@ main #curiosidades img{
     width: 100%;
     margin: auto;
     box-sizing: border-box;
-
-    border: 1px solid blue;
 }
 #qSomos h1{
     margin-bottom: 30px;
@@ -119,8 +115,6 @@ main #curiosidades img{
     font-weight: 100;
     text-align: center;
     margin: 0px 20px;
-
-    border: 1px solid green;
 }
 
 .detalhes{
@@ -151,16 +145,15 @@ details{
 /*Pagina da Marcas*/
 .mainMarcas{
     box-sizing: content-box;
-    width: 99.7%;
 }
 #galery{
     box-sizing: border-box;
-    margin: auto;
     text-align: center;
 }
 #galery #fotos{
     width: 100%;
     margin: auto;
+    border: 1px solid blue;
 }
 #galery img{
     box-sizing: border-box;

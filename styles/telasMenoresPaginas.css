@@ -38,6 +38,18 @@
     }
     
 
+    
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 14%;
+    }
+    #galery #fotos{
+        width: 85%;
+    }
+
+
+
+
 }
 
 
@@ -78,6 +90,14 @@
     }
 
 
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 20%;
+    }
+    #galery #fotos{
+        display: block;
+        columns: 3;
+    }
 }
 
 
@@ -131,6 +151,16 @@
     }
 
 
+
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 25%;
+    }
+    #galery #fotos{
+        display: block;
+        columns: 3;
+    }
+
 }
 
 
@@ -178,13 +208,23 @@
 
 
 
-
     /*Pagina quem somos*/
     .headerQSomosH1 h3{
         font-size: 1.4em;
     }
     #qSomos #section1{
         margin-top: 30%;
+    }
+
+
+
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 30%;
+    }
+    #galery #fotos{
+        display: block;
+        columns: 3;
     }
 }
 
@@ -241,6 +281,16 @@
         margin-right: -80%;
     }
 
+
+
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 40%;
+    }
+    #galery #fotos{
+        display: block;
+        columns: 3;
+    }
 }
 
 
@@ -310,6 +360,13 @@
 
 
 
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 40%;
+    }
+    #galery #fotos{
+        display: ruby;
+    }
 }
 
 
@@ -372,6 +429,16 @@
        display: block;
        text-align: center;
     }
+
+
+
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 60%;
+    }
+    #galery #fotos{
+        display: contents;
+    }
 }
 
 
@@ -432,5 +499,15 @@
     #imgqSomos{
        display: block;
        text-align: center;
+    }
+
+
+
+    /*Pagina da Marcas*/
+    .mainMarcas #top{
+        margin-top: 40%;
+    }
+    #galery #fotos{
+        display: contents;
     }
 }

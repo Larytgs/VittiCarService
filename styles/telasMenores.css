@@ -1086,8 +1086,7 @@
     }
     footer #div2{
         display: ruby;
-    }
-    
+    }  
     footer .horario .hora{
         display: ruby; /*deixa centralizado*/
     }

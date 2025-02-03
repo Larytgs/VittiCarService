@@ -27,7 +27,7 @@ if (window.scrollY > 60) {             //header pqno
         img.style.margin = '10px 100px';
     }
 
-    main.style.margin = '25% 0% 5% 0%';
+    //main.style.margin = '25% 0% 5% 0%';
     h1.style.display = 'none';
 
 } else {                            //header grande
@@ -62,6 +62,7 @@ function ajustarHeaderPorTamanho(){
         menu.style.height = '110px'; 
         menu.style.position = 'fixed'; 
         menu.style.backgroundColor = 'white';
+        
         h1.style.display = 'none';
 
         //Responsividade para a logo
@@ -75,6 +76,8 @@ function ajustarHeaderPorTamanho(){
         img.style.height = '150px'; 
         img.style.width = '150px'; 
         img.style.margin = '10px 30px';
+
+        h1.style.display = 'block'; // Garante que o h1 volte a aparecer em telas maiores
     }
 }
 

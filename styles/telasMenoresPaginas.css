@@ -509,7 +509,11 @@
     /*Pagina do Blog*/
     #blog #top{   
         margin-top: 60%;
-        
+    }
+    #blog h1{
+        display: block;
+        color: blue;
+        text-shadow: var(--efeitoBrilhanteRed);
     }
     #curiosidades{
         gap: 10px 20px; /* Espaçamento entre os itens */
@@ -602,7 +606,11 @@
     /*Pagina do Blog*/
     #blog #top{   
         margin-top: 40%;
-        
+    }
+    #blog h1{
+        display: block;
+        color: blue;
+        text-shadow: var(--efeitoBrilhanteRed);
     }
     #curiosidades{
         gap: 10px; /* Espaçamento entre os itens */

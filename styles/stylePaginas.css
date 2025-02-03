@@ -57,6 +57,9 @@ html, body{
 main #blog{   
     box-sizing: content-box;
 }
+#blog h1{
+    display: none;
+}
 main #curiosidades{ /*todos os blocos*/
     display: flex;
     align-items: stretch; /* Faz com que todos os blocos tenham a mesma altura */

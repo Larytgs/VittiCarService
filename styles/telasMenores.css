@@ -51,35 +51,6 @@
         font-size: large;
     }
 
-
-
-    /*Pagina de serviço e no Index*/
-    #serviços{
-        margin-top: 14%;
-    }
-
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 14%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 400px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-   
-
-
-
-
 }
 
 
@@ -142,38 +113,6 @@
     .blocoServ h2{
         font-size: 1em;
     }
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 20%;
-    }
-    .blocoServ2{
-        margin-bottom: 5px;
-        width: 99%;
-    }
-
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 20%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 400px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-
 }
 
 
@@ -244,47 +183,6 @@
         font-size: 1em;
         align-items: center;
     }
-
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 25%;
-    }
-    .blocoServ2{
-        width: 100%;
-    }
-    .blocoServ2 div{
-        padding: 5px;
-        margin: 0%;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
-
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 25%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 400px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
 }
 
 
@@ -407,50 +305,6 @@
     footer .sociais img{
         width: 40px; height: 40px;
     }
-
-
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 30%;
-    }
-    .blocoServ2{
-        display: inline-block;
-        columns: 2;
-        width: 80%;
-    }
-    .blocoServ2 div{
-        margin: 0%;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
-
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 30%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 350px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-    
 }
 
 
@@ -609,51 +463,6 @@
     footer .sociais img{
         width: 40px; height: 40px;
     }
-
-
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 30%;
-        display: block;
-        align-items: center;
-    }
-    .blocoServ2{
-        display: inline-block;
-        columns: 2;
-        width: 95%;
-    }
-    .blocoServ2 div{
-        margin: 0%;
-        height: 350px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 40%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 300px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-    
 }
 
 
@@ -839,54 +648,6 @@
     footer .scroll-top img{
         width: 40px;
     }
-
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 45%;
-        display: block;
-        align-items: center;
-    }
-    .blocoServ2{
-        display: inline-block;
-        columns: 2;
-        width: 100%;
-        margin: auto;
-    }
-    .blocoServ2 div{
-        margin: 0%;
-        height: 350px;
-        width: 260px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
-
-
-    
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 55%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 450px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-
 }
 
 
@@ -1109,57 +870,6 @@
     footer .scroll-top img{
         width: 35px;
     }
-
-
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 50%;
-        display: flex;
-        flex-direction: column;
-    }
-    .blocoServ2{
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centraliza os itens no eixo horizontal */
-        gap: 15px; /* Espaçamento entre os itens */
-        max-width: 500px; /* Ajusta a largura máxima */
-    }
-    .blocoServ2 div{
-        margin: 0%; padding: 0%; padding: 10px;
-        height: 310px;
-        min-width: 400px;
-        max-width: 450px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
-
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 50%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 430px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-    
-
-
-
 }
 
 
@@ -1392,55 +1102,4 @@
     footer .scroll-top img{
         width: 35px;
     }
-
-
-
-
-
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 40%;
-        display: flex;
-        flex-direction: column;
-    }
-    .blocoServ2{
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centraliza os itens no eixo horizontal */
-        gap: 15px; /* Espaçamento entre os itens */
-        max-width: 500px; /* Ajusta a largura máxima */
-    }
-    .blocoServ2 div{
-        margin: 0%; margin-bottom: 10px; padding: 0%; padding: 10px;
-        min-width: 300px;
-        max-width: 460px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
-
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 40%;
-        
-    }
-    #curiosidades{
-        gap: 10px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 400px; /* Define um limite */
-        min-width: 350px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
 }
-

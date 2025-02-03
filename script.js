@@ -49,9 +49,12 @@ if (window.scrollY > 60) {             //header pqno
         img.style.margin = '10px 30px';
     }
 
+    main.style.margin = '0%';
     h1.style.display = 'block';
 }
 }
+
+
 // Verifica a largura da tela e esconde o header grande se a largura for menor que 659px
 function ajustarHeaderPorTamanho(){
     //Tirando o header grande, a partir do tamanho tablet pqno
@@ -68,7 +71,7 @@ function ajustarHeaderPorTamanho(){
     }else{
         menu.style.height = '100vh'; 
         menu.style.position = 'fixed';
-        
+
         img.style.height = '150px'; 
         img.style.width = '150px'; 
         img.style.margin = '10px 30px';

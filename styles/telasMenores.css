@@ -1426,7 +1426,7 @@
         
     }
     #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
+        gap: 15px; /* Espaçamento entre os itens */
         justify-content: center; /* Garante que os itens fiquem centralizados */
     }
     #blocosCuriosidades1, #blocosCuriosidades2{

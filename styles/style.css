@@ -317,8 +317,6 @@ footer{
 
     overflow-x: hidden;
     box-sizing: content-box;
-
-    border: 1px solid blue;
 }
 footer h1{
     text-align: center;

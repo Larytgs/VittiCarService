@@ -57,32 +57,28 @@ html, body{
 
 /*Pagina do Blog*/
 main #blog{   
-    width: 100%;
     box-sizing: content-box;
 }
 main #curiosidades{ /*todos os blocos*/
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    box-sizing: border-box;  
+    align-items: stretch; /* Faz com que todos os blocos tenham a mesma altura */
+    justify-content: center; /* Centraliza os blocos */
+    flex-wrap: wrap; /* Faz com que os blocos se ajustem conforme o tamanho da tela */
     width: 95%;
+    box-sizing: border-box;  
     margin: 0 auto;
 }
 main #blocosCuriosidades1{ /*cada bloco*/
     width: 300px;
-    height: 480px;
-    padding: 18px 15px 0px 15px; margin-bottom: 15px;
+    padding: 20px; margin-bottom: 15px;
     box-sizing: border-box;
     
     font-size: medium;
     box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
-    
 }
 main #blocosCuriosidades2{ /*cada bloco*/
     width: 300px;
-    height: 480px;
-    padding: 35px 15px 0px 15px; margin-bottom: 15px;
+    padding: 20px;
     box-sizing: border-box;
     
     font-size: medium;

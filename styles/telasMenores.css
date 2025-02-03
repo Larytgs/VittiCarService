@@ -60,6 +60,25 @@
 
 
 
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 14%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 400px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
+   
+
+
+
 
 }
 
@@ -133,6 +152,26 @@
         margin-bottom: 5px;
         width: 99%;
     }
+
+
+
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 20%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 400px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
+
+
 
 
 }
@@ -224,6 +263,24 @@
     }
     .blocoServ2 p{
         padding: 5px;
+    }
+
+
+
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 25%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 400px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
     }
 
 
@@ -371,6 +428,27 @@
     .blocoServ2 p{
         padding: 5px;
     }
+
+
+
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 30%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 350px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
+
+
+
     
 }
 
@@ -555,6 +633,25 @@
     .blocoServ2 p{
         padding: 5px;
     }
+
+
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 40%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 300px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
+
+
     
 }
 
@@ -770,6 +867,25 @@
 
 
     
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 55%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 450px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
+
+
+
+
 }
 
 
@@ -1021,6 +1137,25 @@
     .blocoServ2 p{
         padding: 5px;
     }
+
+
+
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 60%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 600px; /* Define um limite */
+        min-width: 430px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
+    
 
 
 
@@ -1283,6 +1418,23 @@
         padding: 5px;
     }
 
+
+
+    /*Pagina do Blog*/
+    #blog #top{   
+        margin-top: 60%;
+        
+    }
+    #curiosidades{
+        gap: 10px 20px; /* Espaçamento entre os itens */
+        justify-content: center; /* Garante que os itens fiquem centralizados */
+    }
+    #blocosCuriosidades1, #blocosCuriosidades2{
+        max-width: 400px; /* Define um limite */
+        min-width: 350px;
+        justify-content: space-between; /* Mantém os elementos bem distribuídos */
+        align-items: center;
+    }
 
 
 

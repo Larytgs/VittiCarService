@@ -10,8 +10,8 @@ function diminuirMenu() {
 if (window.scrollY > 60) {             //header pqno
     menu.style.height = '110px'; 
     menu.style.position = 'fixed'; 
-    menu.style.backgroundColor = 'white';
-    menu.style.setProperty("background-color", "white", "important"); // Forçando a cor branca
+    //menu.style.backgroundColor = 'white'; nao funciona
+    //menu.style.setProperty("background-color", "white", "important"); // Forçando a cor branca
 
     //img.style.height = '90px'; 
     //img.style.width = '90px'; 

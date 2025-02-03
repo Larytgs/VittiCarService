@@ -629,6 +629,10 @@
        text-align: center;
     }
 
+    .headerQSomosH1 h3{
+        display: none;
+    }
+
 
 
     /*Pagina da Marcas*/

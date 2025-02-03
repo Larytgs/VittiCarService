@@ -359,7 +359,7 @@
         font-size: 2.1em;
     }
     .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     /*main*/
@@ -901,10 +901,11 @@
     }
 
     .headerIndexH1, .titulosPrincipal h1{
-        font-size: 1.7em;
+        font-size: 1.8em;
     }
     .headerIndexH1, .titulosPrincipal h3{
         font-size: 1.2em;
+        width: 85%;
     }
 
     header #menuResponsivo{

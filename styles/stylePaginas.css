@@ -68,7 +68,7 @@ main #curiosidades{ /*todos os blocos*/
     box-sizing: border-box;  
     margin: 0 auto;
 }
-main #blocosCuriosidades1{ /*cada bloco*/
+main #blocosCuriosidades1, #blocosCuriosidades2{ /*cada bloco*/
     width: 300px;
     padding: 20px; margin-bottom: 15px;
     box-sizing: border-box;
@@ -76,15 +76,7 @@ main #blocosCuriosidades1{ /*cada bloco*/
     font-size: medium;
     box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
 }
-main #blocosCuriosidades2{ /*cada bloco*/
-    width: 300px;
-    padding: 20px; margin-bottom: 10px;
-    box-sizing: border-box;
-    
-    font-size: medium;
-    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
-    
-}
+
 main h3{
     text-align: center;
     text-indent: 10px;

@@ -379,7 +379,7 @@
 @media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 50%;
+        margin-top: 40%;
         display: flex;
         flex-direction: column;
     }
@@ -406,7 +406,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 50%;
+        margin-top: 40%;
         
     }
     #curiosidades{
@@ -424,7 +424,7 @@
 
     /*Pagina quem somos*/
     #qSomos #section1{
-        margin-top: 60%;
+        margin-top: 40%;
     }
     .container{
         display: block;

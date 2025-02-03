@@ -153,7 +153,6 @@ details{
 #galery #fotos{
     width: 100%;
     margin: auto;
-    border: 1px solid blue;
 }
 #galery img{
     box-sizing: border-box;
@@ -162,6 +161,7 @@ details{
     width: 120px;
     height: 120px;
 
+    border: 1px solid blue;
 }
 
 

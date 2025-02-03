@@ -508,6 +508,10 @@
         margin-top: 40%;
     }
     #galery #fotos{
-        display: contents;
+        display: ruby;
     }
+    #galery #fotos img{
+        margin: 0%; margin: 10px;
+    }
+
 }

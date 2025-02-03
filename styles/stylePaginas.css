@@ -169,8 +169,6 @@ details{
     margin: auto;
     box-sizing: content-box;
     text-align: center;
-
-    border: 1px solid red;
 }
 #lavaCar h1{
     text-align: center; 
@@ -185,8 +183,6 @@ details{
     justify-content: center; /* Centraliza os itens */
     text-align: center;
     align-items: center; /*alinhar a altura da lista com a foto*/
-
-    border: 1px solid blue;
 }
 #lavaCar #groupLCar ul{
     padding: 30px; margin: 10px;
@@ -205,8 +201,6 @@ details{
     justify-content: center;
     text-align: center;
     align-items: center; /*alinhar a altura da lista com a foto*/
-
-    border: 1px solid green;
 }
 #group2LCar h4{
     text-align: center;

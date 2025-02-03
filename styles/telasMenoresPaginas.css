@@ -270,7 +270,7 @@
 @media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/ 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 50%;
+        margin-top: 60%;
         display: flex;
         flex-direction: column;
     }
@@ -298,7 +298,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 50%;
+        margin-top: 60%;
         
     }
     #curiosidades{
@@ -321,7 +321,7 @@
 @media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 40%;
+        margin-top: 50%;
         display: flex;
         flex-direction: column;
     }
@@ -348,7 +348,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 40%;
+        margin-top: 50%;
         
     }
     #curiosidades{
@@ -362,6 +362,6 @@
         align-items: center;
     }
 
-    
+
 
 }

@@ -10,7 +10,7 @@ function diminuirMenu() {
 if (window.scrollY > 60) {             //header pqno
     menu.style.height = '110px'; 
     menu.style.position = 'fixed'; 
-    //menu.style.backgroundColor = 'white'; nao funciona
+    //menu.style.backgroundColor = 'white'; nao funciona  background-size: cover; 
     //menu.style.setProperty("background-color", "white", "important"); // Forçando a cor branca
 
     //img.style.height = '90px'; 
@@ -63,7 +63,7 @@ function ajustarHeaderPorTamanho(){
     if (window.innerWidth < 659){
         menu.style.height = '110px'; 
         menu.style.position = 'fixed'; 
-        menu.style.backgroundColor = 'white';
+        //menu.style.backgroundColor = 'white';
         
         main.style.margin = '0%';
         h1.style.display = 'none';

@@ -84,6 +84,7 @@ function ajustarHeaderPorTamanho(){
 
 // Chama a função quando a página carregar
 ajustarHeaderPorTamanho();
+window.addEventListener('resize', ajustarHeaderPorTamanho);
 
 // Evento de scroll para diminuir o menu
 window.addEventListener('scroll', diminuirMenu);

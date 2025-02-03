@@ -78,7 +78,7 @@ main #blocosCuriosidades1{ /*cada bloco*/
 }
 main #blocosCuriosidades2{ /*cada bloco*/
     width: 300px;
-    padding: 20px;
+    padding: 20px; margin-bottom: 10px;
     box-sizing: border-box;
     
     font-size: medium;

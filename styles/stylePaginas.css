@@ -181,8 +181,7 @@ details{
 }
 #lavaCar #groupLCar{
     box-sizing: content-box;
-    display: flex; margin: 2%;
-    /*flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+    display: flex; 
     justify-content: center; /* Centraliza os itens */
     text-align: center;
     align-items: center; /*alinhar a altura da lista com a foto*/

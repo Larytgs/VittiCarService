@@ -672,9 +672,11 @@
         margin-top: 40%;
     }
     #lavaCar #groupLCar{
-        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+        display: block;
+        /*flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
         width: 100%;
         margin: 0%;
+        text-align: center;
     }
     #lavaCar #groupLCar ul{
         padding-top: 0px; 

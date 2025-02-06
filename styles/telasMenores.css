@@ -7,6 +7,10 @@
     --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
     
 }
+:target {
+    scroll-margin-top: 5em;
+}
+
 
 
 @media all and (min-width: 1010px) and (max-width: 1115px) {

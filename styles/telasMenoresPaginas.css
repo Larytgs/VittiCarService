@@ -716,6 +716,9 @@
         display: block;
         width: 30px; margin-bottom: -25px; margin-right: 0px;
     }
+    #group2LCar{
+        margin-bottom: 30px;
+    }
     #group2LCar img{
         width: 80px;
         margin: 10px;

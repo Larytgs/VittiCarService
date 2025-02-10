@@ -57,7 +57,7 @@ if (window.scrollY > 60) {             //header pqno
 
 
 
-// Verifica a largura da tela e esconde o header grande se a largura for menor que 659px
+// Verifica a largura da tela e esconder o header grande se a largura for menor que 659px
 function ajustarHeaderPorTamanho(){
     //Tirando o header grande, a partir do tamanho tablet pqno
     if (window.innerWidth < 659){

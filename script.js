@@ -28,7 +28,7 @@ if (window.scrollY > 60) {             //header pqno
         img.style.margin = '10px 100px';
     }
 
-    main.style.margin = '25% 0% 5% 0%';
+    main.style.padding = '10% 0% 5% 0%';
     h1.style.display = 'none';
 
 } else {                            //header grande
@@ -50,7 +50,7 @@ if (window.scrollY > 60) {             //header pqno
         img.style.margin = '10px 30px';
     }
 
-    main.style.margin = '0%';
+    main.style.padding = '0%';
     h1.style.display = 'block';
 }
 }

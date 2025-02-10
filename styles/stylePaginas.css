@@ -22,6 +22,7 @@ html, body{
     box-sizing: content-box;
     align-items: center;
     overflow: hidden;
+    margin-top: 5%;
 }
 .blocoServ2{
     display: flex;

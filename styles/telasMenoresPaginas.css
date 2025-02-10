@@ -63,6 +63,10 @@
         width: 80px;
         margin: 10px;
     }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-left: 0px;
+    }
 }
 
 
@@ -127,6 +131,10 @@
     #group2LCar img{
         width: 80px;
         margin: 10px;
+    }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-left: 0px;
     }
 }
 
@@ -206,6 +214,10 @@
     #group2LCar img{
         width: 80px;
         margin: 10px;
+    }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-right: 0px;
     }
 
 }
@@ -291,6 +303,10 @@
         width: 80px;
         margin: 10px;
     }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-right: 0px;
+    }
 }
 
 
@@ -374,6 +390,10 @@
     #group2LCar img{
         width: 80px;
         margin: 10px;
+    }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-right: 0px;
     }
 }
 
@@ -473,6 +493,10 @@
         width: 80px;
         margin: 10px;
     }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-right: 0px;
+    }
 }
 
 
@@ -570,6 +594,10 @@
     #group2LCar img{
         width: 80px;
         margin: 10px;
+    }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-right: 0px;
     }
 }
 
@@ -683,6 +711,10 @@
     }
     #groupLCar img{
         display: none;
+    }
+    #groupLCar h5 img{
+        display: block;
+        width: 30px; margin-bottom: -25px; margin-right: 0px;
     }
     #group2LCar img{
         width: 80px;

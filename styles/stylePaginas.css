@@ -222,3 +222,8 @@ details{
     width: 150px;
     margin: 10px;
 }
+#groupLCar h5 img{
+    display: block;
+    width: 30px; 
+    margin-bottom: -25px; margin-left: 5px;
+}

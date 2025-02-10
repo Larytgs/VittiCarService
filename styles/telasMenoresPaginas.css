@@ -11,7 +11,7 @@
 @media all and (min-width: 1010px) and (max-width: 1115px) {
      /*Pagina de serviço*/
      #serviços{
-        margin-top: 14%;
+        margin-top: 20%;
     }
 
 
@@ -75,7 +75,7 @@
 @media all and (min-width: 960px) and (max-width: 1009px) { 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .blocoServ2{
         margin-bottom: 5px;
@@ -86,7 +86,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 20%;
+        margin-top: 12%;
         
     }
     #curiosidades{
@@ -103,13 +103,13 @@
 
     /*Pagina quem somos*/
     #qSomos #section1{
-        margin-top: 18%;
+        margin-top: 10%;
     }
 
 
     /*Pagina da Marcas*/
     .mainMarcas #top{
-        margin-top: 20%;
+        margin-top: 10%;
     }
     #galery #fotos{
         display: block;
@@ -120,7 +120,7 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 20%;
+        margin-top: 12%;
     }
     #lavaCar #groupLCar{
         width: 93%;
@@ -145,7 +145,7 @@
 @media all and (min-width: 870px) and (max-width: 959px) { /*para tablets grandes*/ 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 25%;
+        margin-top: 17%;
     }
     .blocoServ2{
         width: 100%;
@@ -165,7 +165,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 25%;
+        margin-top: 15%;
         
     }
     #curiosidades{
@@ -185,14 +185,14 @@
         font-size: 1.8em;
     }
     #qSomos #section1{
-        margin-top: 25%;
+        margin-top: 12%;
     }
 
 
 
     /*Pagina da Marcas*/
     .mainMarcas #top{
-        margin-top: 25%;
+        margin-top: 11%;
     }
     #galery #fotos{
         display: block;
@@ -203,7 +203,7 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 25%;
+        margin-top: 12%;
     }
     #lavaCar #groupLCar{
         flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
@@ -230,7 +230,7 @@
 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 25%;
+        margin-top: 20%;
     }
     .blocoServ2{
         display: inline-block;
@@ -251,7 +251,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 30%;
+        margin-top: 20%;
         
     }
     #curiosidades{
@@ -272,14 +272,14 @@
         font-size: 1.4em;
     }
     #qSomos #section1{
-        margin-top: 30%;
+        margin-top: 17%;
     }
 
 
 
     /*Pagina da Marcas*/
     .mainMarcas #top{
-        margin-top: 30%;
+        margin-top: 15%;
     }
     #galery #fotos{
         display: block;
@@ -290,7 +290,10 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 30%;
+        margin-top: 15%;
+    }
+    #lavaCar h1{
+        margin-bottom: -40px;
     }
     #lavaCar #groupLCar{
         flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
@@ -315,7 +318,7 @@
 @media all and (min-width: 660px) and (max-width: 799px) { /*para tablets pqnos*/ 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 30%;
+        margin-top: 20%;
         display: block;
         align-items: center;
     }
@@ -338,7 +341,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 40%;
+        margin-top: 20%;
         
     }
     #curiosidades{
@@ -356,17 +359,14 @@
 
     /*Pagina quem somos*/
     #qSomos #section1{
-        margin-top: 40%;
-    }
-    #qSomos h1{
-        margin-right: -80%;
+        margin-top: 20%;
     }
 
 
 
     /*Pagina da Marcas*/
     .mainMarcas #top{
-        margin-top: 40%;
+        margin-top: 20%;
     }
     #galery #fotos{
         display: block;
@@ -377,7 +377,10 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 40%;
+        margin-top: 22%;
+    }
+    #lavaCar h1{
+        margin-bottom: -40px;
     }
     #lavaCar #groupLCar{
         flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
@@ -403,7 +406,7 @@
 @media all and (min-width: 530px ) and (max-width: 659px){ /*tive que fazer outro menor*/ 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 45%;
+        margin-top: 30%;
         display: block;
         align-items: center;
     }
@@ -429,7 +432,7 @@
     
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 55%;
+        margin-top: 30%;
         
     }
     #curiosidades{
@@ -447,7 +450,7 @@
 
     /*Pagina quem somos*/
     #qSomos #section1{
-        margin-top: 55%;
+        margin-top: 30%;
     }
     .container{
         display: block;
@@ -466,7 +469,7 @@
 
     /*Pagina da Marcas*/
     .mainMarcas #top{
-        margin-top: 40%;
+        margin-top: 25%;
     }
     #galery #fotos{
         display: ruby;
@@ -476,7 +479,10 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 40%;
+        margin-top: 30%;
+    }
+    #lavaCar h1{
+        margin-bottom: -20px;
     }
     #lavaCar #groupLCar{
         flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
@@ -504,7 +510,7 @@
 @media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/ 
     /*Pagina de serviço*/
     #serviços{
-        margin-top: 60%;
+        margin-top: 40%;
         display: flex;
         flex-direction: column;
     }
@@ -532,7 +538,7 @@
 
     /*Pagina do Blog*/
     #blog #top{   
-        margin-top: 60%;
+        margin-top: 35%;
     }
     #blog h1{
         display: block;
@@ -554,7 +560,7 @@
 
     /*Pagina quem somos*/
     #qSomos #section1{
-        margin-top: 60%;
+        margin-top: 35%;
     }
     .container{
         display: block;
@@ -568,7 +574,7 @@
 
     /*Pagina da Marcas*/
     .mainMarcas #top{
-        margin-top: 60%;
+        margin-top: 30%;
     }
     #galery #fotos{
         display: contents;
@@ -578,7 +584,10 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 60%;
+        margin-top: 35%;
+    }
+    #lavaCar h1{
+        margin-bottom: -10px;
     }
     #lavaCar #groupLCar{
         flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
@@ -698,6 +707,9 @@
     /*Pagina LavaCar*/
     #lavaCar #top{
         margin-top: 40%;
+    }
+    #lavaCar h1{
+        margin-bottom: -10px;
     }
     #lavaCar #groupLCar{
         display: block;

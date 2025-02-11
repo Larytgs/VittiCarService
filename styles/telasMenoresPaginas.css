@@ -692,10 +692,10 @@
 
     /*Pagina LavaCar*/
     #lavaCar #top{
-        margin-top: 40%;
+        margin-top: 50%;
     }
     #lavaCar h1{
-        margin-bottom: -10px;
+        margin-bottom: -5px;
     }
     #lavaCar #groupLCar{
         display: block;
@@ -715,7 +715,7 @@
         width: 30px; margin-bottom: -25px; margin-right: 0px;
     }
     #group2LCar{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     #group2LCar img{
         width: 80px;

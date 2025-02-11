@@ -640,14 +640,7 @@
 
 
 
-    /*Pagina do Blog*/
-    .headerBlogH1 h1{
-        display: none;
-    }
-    .headerBlogH1 h3{
-        display: none;
-    }
-    
+    /*Pagina do Blog*/    
     #blog #top{   
         margin-top: 40%;
     }
@@ -681,16 +674,9 @@
        text-align: center;
     }
 
-    .headerQSomosH1 h3{
-        display: none;
-    }
-
 
 
     /*Pagina da Marcas*/
-    .headerMarcas h3{
-        display: none;
-    }
     .mainMarcas #top{
         margin-top: 40%;
     }

@@ -909,7 +909,19 @@
     }
     .headerIndexH1, .titulosPrincipal h3{
         font-size: 1.2em;
-        width: 85%;
+    }
+    /*apenas para o header index, blog, qSomos e marcas*/
+    .headerIndexH1 h3{ 
+        width: 300px;
+    }
+    .headerBlogH1 h3{
+        width: 300px;
+    }
+    .headerQSomosH1 h3{
+        width: 300px;
+    }
+    .headerMarcasH1 h3{
+        width: 300px;
     }
 
     header #menuResponsivo{

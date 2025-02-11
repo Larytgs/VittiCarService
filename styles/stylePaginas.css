@@ -229,3 +229,14 @@ details{
     width: 30px; 
     margin-bottom: -25px; margin-left: 5px;
 }
+
+#group2LCar a p{
+    margin-top: 10px;
+}
+#group2LCar a{
+    text-decoration: none;
+    color: black;
+}
+#group2LCar a:hover{
+    text-decoration: underline;
+}

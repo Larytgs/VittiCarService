@@ -710,6 +710,9 @@
     #groupLCar img{
         display: none;
     }
+    #groupLCar h4{
+        width: 300px;
+    }
     #groupLCar h5 img{
         display: block;
         width: 30px; margin-bottom: -25px; margin-right: 0px;
@@ -720,8 +723,5 @@
     #group2LCar img{
         width: 80px;
         margin: 10px;
-    }
-    #group2LCar a{
-        
     }
 }

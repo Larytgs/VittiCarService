@@ -283,16 +283,17 @@ hr{
 
 #botaoServiços{
     text-align: center;
-    margin-top: 50px; margin-bottom: 50px;
+    margin-top: 50px; margin-bottom: 50px; padding: center;
     overflow: hidden; /* Evita que o botão seja cortado */
 }
-#botaoServiços input{
+#botaoServiços button{
     display: inline-block;
     padding: 10px 15px;
     border: 1px solid black;
     border-radius: 20px;
+    white-space: nowrap; /* Impede quebra de linha */
 }
-#botaoServiços input:hover{
+#botaoServiços button:hover{
     background-image: linear-gradient(50deg, #0085FF, #0000ffde, #080852);
     color: white;
     cursor: pointer;

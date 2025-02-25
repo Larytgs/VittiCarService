@@ -284,8 +284,10 @@ hr{
 #botaoServiços{
     text-align: center;
     margin-top: 50px; margin-bottom: 50px;
+    overflow: hidden; /* Evita que o botão seja cortado */
 }
 #botaoServiços input{
+    display: inline-block;
     padding: 10px 15px;
     border: 1px solid black;
     border-radius: 20px;

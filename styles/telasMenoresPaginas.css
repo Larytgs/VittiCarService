@@ -825,7 +825,7 @@
         padding-top: 0px; 
     }
     #groupLCar img{
-        width: 100vw; /* Faz a imagem ocupar toda a largura */
+        width: 103vw; /* Faz a imagem ocupar toda a largura */
         height: auto; /* Mantém a proporção da imagem */
         display: block; /* Remove espaços extras */
     }
@@ -844,7 +844,9 @@
     
     }
     .card{ /*cada foto*/
-        width: 100vw;
+        width: 103vw;
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras */
     }
     #groupLCar h4{
         width: 300px;

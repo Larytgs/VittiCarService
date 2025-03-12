@@ -831,7 +831,7 @@
     .carrossel-container { /*toda a tabela, junto c os botoes*/
         position: relative; /*para os botoes*/
         overflow: hidden;
-        width: 350px;
+        width: 355px;
     }
     .cardsCarrossel{  /*todos os conhecimentos*/
         display: flex;

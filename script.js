@@ -116,6 +116,29 @@ document.querySelectorAll("#menuzinho a").forEach(link => {
 });
 
 
+//Carrossel LavaCar
+const container = document.querySelector('.cardsCarrossel');
+let cards = document.querySelectorAll('.card');
+const cardWidth = cards[0].offsetWidth + 10; // Largura do card + gap
+let index = 0; // Começa no primeiro card real
+
+
+// Função para mover o carrossel
+function moverCarrossel(direcao) {
+    index += direcao;
+
+    // Alternar entre os dois cards (efeito infinito)
+    if (index < 0) {
+        index = 0;
+    } else if (index >= cards.length - 1) {
+        index = cards.length - 1;
+    }
+
+    container.style.transition = "transform 0.5s ease-in-out";
+    container.style.transform = `translateX(${-index * cardWidth}px)`;
+}
+
+
 
 //Parte da seta subindo
 const scrollToTop = () => {

@@ -193,11 +193,46 @@ details{
     font-size: larger;
     text-align: left;
 }
+
+
 #groupLCar img{
-    box-sizing: border-box;
-    width: 450px;
-    border-radius: 20px 0px 20px;
+    width: 420px;
 }
+
+.carrossel-container { /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 410px;
+}
+.cardsCarrossel{  /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+
+}
+.card{ /*cada foto*/
+    width: 420px;
+}
+/*botoes para carrossel*/
+.control {
+    position: absolute;
+    background: var(--headerFotter);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10; /*para ele ficar visivel sempre*/
+}
+.control-left {
+    top: 0; bottom: 0; left: 0; right: auto;
+}
+.control-right {
+    top: 0; bottom: 0; left: auto; right: 0;
+}
+
+
 #group2LCar{
     box-sizing: border-box;
     margin: 10px;

@@ -825,7 +825,7 @@
         padding-top: 0px; 
     }
     #groupLCar img{
-        width: 380px;
+        width: 375px;
     }
 
     .carrossel-container { /*toda a tabela, junto c os botoes*/
@@ -841,7 +841,7 @@
     
     }
     .card{ /*cada foto*/
-        width: 380px;
+        width: 375px;
     }
     #groupLCar h4{
         width: 300px;

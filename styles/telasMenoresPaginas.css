@@ -825,13 +825,16 @@
         padding-top: 0px; 
     }
     #groupLCar img{
-        width: 365px;
+        width: 100vw; /* Faz a imagem ocupar toda a largura */
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços extras */
     }
 
     .carrossel-container { /*toda a tabela, junto c os botoes*/
         position: relative; /*para os botoes*/
         overflow: hidden;
-        width: 355px;
+        width: 100vw; /* Largura total da tela */
+        overflow: hidden; /* Evita margens inesperadas */
     }
     .cardsCarrossel{  /*todos os conhecimentos*/
         display: flex;
@@ -841,7 +844,7 @@
     
     }
     .card{ /*cada foto*/
-        width: 365px;
+        width: 100vw;
     }
     #groupLCar h4{
         width: 300px;

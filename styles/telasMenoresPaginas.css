@@ -1,865 +1,840 @@
 @charset "UTF8";
 
-
-:root{
-    --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black;
-    --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa, 0 0 30px #0085FF;
-    --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
-    
+:root {
+  --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px black;
+  --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa,
+    0 0 30px #0085ff;
+  --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red,
+    0 0 30px white;
 }
 
 @media all and (min-width: 1010px) and (max-width: 1115px) {
-     /*Pagina de serviço*/
-     #serviços{
-        margin-top: 20%;
-    }
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 20%;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 14%;
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 400px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 14%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 400px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
+  /*Pagina quem somos*/
+  #qSomos #section1 {
+    margin-top: 14%;
+  }
 
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 14%;
+  }
+  #galery #fotos {
+    width: 85%;
+  }
 
-    /*Pagina quem somos*/
-    #qSomos #section1{
-        margin-top: 14%;
-    }
-    
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 14%;
+  }
+  #lavaCar #groupLCar {
+    width: 90%;
+  }
+  #groupLCar img {
+    width: 420px;
+  }
 
-    
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 14%;
-    }
-    #galery #fotos{
-        width: 85%;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 440px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 420px;
+  }
 
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 14%;
-    }
-    #lavaCar #groupLCar{
-        width: 90%;
-    }
-    #groupLCar img{
-        width: 420px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 440px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 420px;
-    }
-
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-left: 0px;
-    }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-left: 0px;
+  }
 }
 
+@media all and (min-width: 960px) and (max-width: 1009px) {
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 10%;
+  }
+  .blocoServ2 {
+    margin-bottom: 5px;
+    width: 99%;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 12%;
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 400px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
+  /*Pagina quem somos*/
+  #qSomos #section1 {
+    margin-top: 10%;
+  }
 
-@media all and (min-width: 960px) and (max-width: 1009px) { 
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 10%;
-    }
-    .blocoServ2{
-        margin-bottom: 5px;
-        width: 99%;
-    }
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 10%;
+  }
+  #galery #fotos {
+    display: block;
+    columns: 3;
+  }
 
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 12%;
+  }
+  #lavaCar #groupLCar {
+    width: 93%;
+  }
+  #groupLCar img {
+    width: 390px;
+  }
 
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 12%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 400px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-    /*Pagina quem somos*/
-    #qSomos #section1{
-        margin-top: 10%;
-    }
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 10%;
-    }
-    #galery #fotos{
-        display: block;
-        columns: 3;
-    }
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 12%;
-    }
-    #lavaCar #groupLCar{
-        width: 93%;
-    }
-    #groupLCar img{
-        width: 390px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 400px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 400px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-left: 0px;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 400px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 400px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-left: 0px;
+  }
 }
 
+@media all and (min-width: 870px) and (max-width: 959px) {
+  /*para tablets grandes*/
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 17%;
+  }
+  .blocoServ2 {
+    width: 100%;
+  }
+  .blocoServ2 div {
+    padding: 5px;
+    margin: 0%;
+  }
+  .blocoServ2 img {
+    /*imagens dos serviços*/
+    padding: 5px;
+  }
+  .blocoServ2 p {
+    padding: 5px;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 15%;
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 400px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
+  /*Pagina quem somos*/
+  .headerQSomosH1 h3 {
+    font-size: 1.8em;
+  }
+  #qSomos #section1 {
+    margin-top: 12%;
+  }
 
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 11%;
+  }
+  #galery #fotos {
+    display: block;
+    columns: 3;
+  }
 
-@media all and (min-width: 870px) and (max-width: 959px) { /*para tablets grandes*/ 
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 17%;
-    }
-    .blocoServ2{
-        width: 100%;
-    }
-    .blocoServ2 div{
-        padding: 5px;
-        margin: 0%;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 12%;
+  }
+  #lavaCar #groupLCar {
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+  }
+  #groupLCar img {
+    width: 400px;
+  }
 
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 15%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 400px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-    /*Pagina quem somos*/
-    .headerQSomosH1 h3{
-        font-size: 1.8em;
-    }
-    #qSomos #section1{
-        margin-top: 12%;
-    }
-
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 11%;
-    }
-    #galery #fotos{
-        display: block;
-        columns: 3;
-    }
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 12%;
-    }
-    #lavaCar #groupLCar{
-        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
-    }
-    #groupLCar img{
-        width: 400px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 360px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 400px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-right: 0px;
-    }
-
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 360px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 400px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 0px;
+  }
 }
 
+@media all and (min-width: 800px) and (max-width: 869px) {
+  /*para tablets medios*/
 
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 20%;
+  }
+  .blocoServ2 {
+    display: inline-block;
+    columns: 2;
+    width: 80%;
+  }
+  .blocoServ2 div {
+    margin: 0%;
+  }
+  .blocoServ2 img {
+    /*imagens dos serviços*/
+    padding: 5px;
+  }
+  .blocoServ2 p {
+    padding: 5px;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 20%;
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 350px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
+  /*Pagina quem somos*/
+  .headerQSomosH1 h3 {
+    font-size: 1.4em;
+  }
+  #qSomos #section1 {
+    margin-top: 17%;
+  }
 
-@media all and (min-width: 800px) and (max-width: 869px) { /*para tablets medios*/ 
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 15%;
+  }
+  #galery #fotos {
+    display: block;
+    columns: 3;
+  }
 
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 20%;
-    }
-    .blocoServ2{
-        display: inline-block;
-        columns: 2;
-        width: 80%;
-    }
-    .blocoServ2 div{
-        margin: 0%;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 15%;
+  }
+  #lavaCar h1 {
+    margin-bottom: -50px;
+  }
+  #lavaCar #groupLCar {
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+    width: 100%;
+    margin-top: 5%;
+  }
+  #groupLCar img {
+    width: 380px;
+  }
 
-
-
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 20%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 350px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-    /*Pagina quem somos*/
-    .headerQSomosH1 h3{
-        font-size: 1.4em;
-    }
-    #qSomos #section1{
-        margin-top: 17%;
-    }
-
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 15%;
-    }
-    #galery #fotos{
-        display: block;
-        columns: 3;
-    }
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 15%;
-    }
-    #lavaCar h1{
-        margin-bottom: -50px;
-    }
-    #lavaCar #groupLCar{
-        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
-        width: 100%;
-        margin-top: 5%;
-    }
-    #groupLCar img{
-        width: 380px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 350px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 380px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-right: 0px;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 350px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 380px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 0px;
+  }
 }
 
+@media all and (min-width: 660px) and (max-width: 799px) {
+  /*para tablets pqnos*/
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 20%;
+    display: block;
+    align-items: center;
+  }
+  .blocoServ2 {
+    display: inline-block;
+    columns: 2;
+    width: 95%;
+  }
+  .blocoServ2 div {
+    margin: 0%;
+    height: 350px;
+  }
+  .blocoServ2 img {
+    /*imagens dos serviços*/
+    padding: 5px;
+  }
+  .blocoServ2 p {
+    padding: 5px;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 20%;
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 300px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
+  /*Pagina quem somos*/
+  #qSomos #section1 {
+    margin-top: 20%;
+  }
 
-@media all and (min-width: 660px) and (max-width: 799px) { /*para tablets pqnos*/ 
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 20%;
-        display: block;
-        align-items: center;
-    }
-    .blocoServ2{
-        display: inline-block;
-        columns: 2;
-        width: 95%;
-    }
-    .blocoServ2 div{
-        margin: 0%;
-        height: 350px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 20%;
+  }
+  #galery #fotos {
+    display: block;
+    columns: 3;
+  }
 
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 22%;
+  }
+  #lavaCar h1 {
+    margin-bottom: -40px;
+  }
+  #lavaCar #groupLCar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+  }
 
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 20%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 300px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
+  #groupLCar img {
+    width: 400px;
+  }
 
-
-
-    /*Pagina quem somos*/
-    #qSomos #section1{
-        margin-top: 20%;
-    }
-
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 20%;
-    }
-    #galery #fotos{
-        display: block;
-        columns: 3;
-    }
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 22%;
-    }
-    #lavaCar h1{
-        margin-bottom: -40px;
-    }
-    #lavaCar #groupLCar{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0%;
-    }
-    
-    #groupLCar img{
-        width: 400px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 390px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 400px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-right: 0px;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 390px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 400px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 0px;
+  }
 }
 
+@media all and (min-width: 530px) and (max-width: 659px) {
+  /*tive que fazer outro menor*/
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 30%;
+    display: block;
+    align-items: center;
+  }
+  .blocoServ2 {
+    display: inline-block;
+    columns: 2;
+    width: 100%;
+    margin: auto;
+  }
+  .blocoServ2 div {
+    margin: 0%;
+    height: 350px;
+    width: 260px;
+  }
+  .blocoServ2 img {
+    /*imagens dos serviços*/
+    padding: 5px;
+  }
+  .blocoServ2 p {
+    padding: 5px;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 30%;
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 450px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
+  /*Pagina quem somos*/
+  #qSomos #section1 {
+    margin-top: 30%;
+  }
+  .container {
+    display: block;
+  }
+  #imgqSomos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #imgqSomos img {
+    width: 250px;
+    padding: 0px;
+  }
 
-@media all and (min-width: 530px ) and (max-width: 659px){ /*tive que fazer outro menor*/ 
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 30%;
-        display: block;
-        align-items: center;
-    }
-    .blocoServ2{
-        display: inline-block;
-        columns: 2;
-        width: 100%;
-        margin: auto;
-    }
-    .blocoServ2 div{
-        margin: 0%;
-        height: 350px;
-        width: 260px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 25%;
+  }
+  #galery #fotos {
+    display: ruby;
+  }
 
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 30%;
+  }
+  #lavaCar h1 {
+    margin-bottom: -20px;
+  }
+  #lavaCar #groupLCar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+  }
+  #lavaCar #groupLCar ul {
+    padding-top: 0px;
+  }
+  #groupLCar img {
+    width: 400px;
+  }
 
-    
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 30%;
-        
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 450px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-    /*Pagina quem somos*/
-    #qSomos #section1{
-        margin-top: 30%;
-    }
-    .container{
-        display: block;
-    }
-    #imgqSomos{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-evenly;
-    }
-    #imgqSomos img{
-        width: 250px;
-        padding: 0px;
-    }
-
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 25%;
-    }
-    #galery #fotos{
-        display: ruby;
-    }
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 30%;
-    }
-    #lavaCar h1{
-        margin-bottom: -20px;
-    }
-    #lavaCar #groupLCar{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0%;
-    }
-    #lavaCar #groupLCar ul{
-        padding-top: 0px; 
-    }
-    #groupLCar img{
-        width: 400px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 390px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 400px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-right: 0px;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 390px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 400px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 0px;
+  }
 }
 
+@media all and (min-width: 450px) and (max-width: 529px) {
+  /*para celular*/
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .blocoServ2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens no eixo horizontal */
+    gap: 15px; /* Espaçamento entre os itens */
+    max-width: 500px; /* Ajusta a largura máxima */
+  }
+  .blocoServ2 div {
+    margin: 0%;
+    padding: 0%;
+    padding: 10px;
+    height: 310px;
+    min-width: 400px;
+    max-width: 450px;
+  }
+  .blocoServ2 img {
+    /*imagens dos serviços*/
+    padding: 5px;
+  }
+  .blocoServ2 p {
+    padding: 5px;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 35%;
+  }
+  #blog h1 {
+    display: block;
+    color: blue;
+    text-shadow: var(--efeitoBrilhanteRed);
+  }
+  #curiosidades {
+    gap: 10px 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 600px; /* Define um limite */
+    min-width: 430px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
-@media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/ 
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 40%;
-        display: flex;
-        flex-direction: column;
-    }
-    .blocoServ2{
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centraliza os itens no eixo horizontal */
-        gap: 15px; /* Espaçamento entre os itens */
-        max-width: 500px; /* Ajusta a largura máxima */
-    }
-    .blocoServ2 div{
-        margin: 0%; padding: 0%; padding: 10px;
-        height: 310px;
-        min-width: 400px;
-        max-width: 450px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
+  /*Pagina quem somos*/
+  #qSomos #section1 {
+    margin-top: 35%;
+  }
+  .container {
+    display: block;
+  }
+  #imgqSomos {
+    display: block;
+    text-align: center;
+  }
 
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 30%;
+  }
+  #galery #fotos {
+    display: contents;
+  }
 
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 35%;
+  }
+  #lavaCar h1 {
+    margin-bottom: -10px;
+  }
+  #lavaCar #groupLCar {
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
+    width: 100%;
+    margin: 0%;
+  }
+  #lavaCar #groupLCar ul {
+    padding-top: 0px;
+  }
+  #groupLCar img {
+    width: 400px;
+  }
 
-    /*Pagina do Blog*/
-    #blog #top{   
-        margin-top: 35%;
-    }
-    #blog h1{
-        display: block;
-        color: blue;
-        text-shadow: var(--efeitoBrilhanteRed);
-    }
-    #curiosidades{
-        gap: 10px 20px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 600px; /* Define um limite */
-        min-width: 430px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-    /*Pagina quem somos*/
-    #qSomos #section1{
-        margin-top: 35%;
-    }
-    .container{
-        display: block;
-    }
-    #imgqSomos{
-       display: block;
-       text-align: center;
-    }
-
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 30%;
-    }
-    #galery #fotos{
-        display: contents;
-    }
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 35%;
-    }
-    #lavaCar h1{
-        margin-bottom: -10px;
-    }
-    #lavaCar #groupLCar{
-        flex-wrap: wrap; /* Permite que os elementos quebrem linha caso necessário */
-        width: 100%;
-        margin: 0%;
-    }
-    #lavaCar #groupLCar ul{
-        padding-top: 0px; 
-    }
-    #groupLCar img{
-        width: 400px;
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 390px;
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 400px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-right: 0px;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 390px;
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 400px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 0px;
+  }
 }
 
+@media all and (min-width: 320px) and (max-width: 449px) {
+  /*para celular menores*/
+  /*Pagina de serviço*/
+  #serviços {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .blocoServ2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens no eixo horizontal */
+    gap: 15px; /* Espaçamento entre os itens */
+    max-width: 500px; /* Ajusta a largura máxima */
+  }
+  .blocoServ2 div {
+    margin: 0%;
+    margin-bottom: 10px;
+    padding: 0%;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 460px;
+  }
+  .blocoServ2 img {
+    /*imagens dos serviços*/
+    padding: 5px;
+  }
+  .blocoServ2 p {
+    padding: 5px;
+  }
 
+  /*Pagina do Blog*/
+  #blog #top {
+    margin-top: 40%;
+  }
+  #blog h1 {
+    display: block;
+    color: red;
+    text-shadow: var(--efeitoBrilhanteRed);
+  }
+  #curiosidades {
+    gap: 10px; /* Espaçamento entre os itens */
+    justify-content: center; /* Garante que os itens fiquem centralizados */
+  }
+  #blocosCuriosidades1,
+  #blocosCuriosidades2 {
+    max-width: 400px; /* Define um limite */
+    min-width: 350px;
+    justify-content: space-between; /* Mantém os elementos bem distribuídos */
+    align-items: center;
+  }
 
-@media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
-    /*Pagina de serviço*/
-    #serviços{
-        margin-top: 40%;
-        display: flex;
-        flex-direction: column;
-    }
-    .blocoServ2{
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Centraliza os itens no eixo horizontal */
-        gap: 15px; /* Espaçamento entre os itens */
-        max-width: 500px; /* Ajusta a largura máxima */
-    }
-    .blocoServ2 div{
-        margin: 0%; margin-bottom: 10px; padding: 0%; padding: 10px;
-        min-width: 300px;
-        max-width: 460px;
-    }
-    .blocoServ2 img{ /*imagens dos serviços*/
-        padding: 5px;
-    }
-    .blocoServ2 p{
-        padding: 5px;
-    }
+  /*Pagina quem somos*/
+  #qSomos #section1 {
+    margin-top: 30%;
+  }
+  #qSomos h1 {
+    margin-bottom: 0px;
+  }
+  .container {
+    display: block;
+  }
+  #imgqSomos {
+    display: block;
+    text-align: center;
+  }
 
+  /*Pagina da Marcas*/
+  .mainMarcas #top {
+    margin-top: 30%;
+  }
+  #galery #fotos {
+    display: ruby;
+  }
+  #galery #fotos img {
+    margin: 0%;
+    margin: 20px;
+  }
 
+  /*Pagina LavaCar*/
+  #lavaCar #top {
+    margin-top: 35%;
+  }
+  #lavaCar h1 {
+    margin-bottom: -5px;
+  }
+  #lavaCar #groupLCar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+  }
+  #lavaCar #groupLCar ul {
+    padding-top: 0px;
+  }
+  #groupLCar img {
+    width: 103vw; /* Faz a imagem ocupar toda a largura */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras */
+  }
 
-    /*Pagina do Blog*/    
-    #blog #top{   
-        margin-top: 40%;
-    }
-    #blog h1{
-        display: block;
-        color: red;
-        text-shadow: var(--efeitoBrilhanteRed);
-    }
-    #curiosidades{
-        gap: 10px; /* Espaçamento entre os itens */
-        justify-content: center; /* Garante que os itens fiquem centralizados */
-    }
-    #blocosCuriosidades1, #blocosCuriosidades2{
-        max-width: 400px; /* Define um limite */
-        min-width: 350px;
-        justify-content: space-between; /* Mantém os elementos bem distribuídos */
-        align-items: center;
-    }
-
-
-
-    /*Pagina quem somos*/
-    #qSomos #section1{
-        margin-top: 40%;
-    }
-    .container{
-        display: block;
-    }
-    #imgqSomos{
-       display: block;
-       text-align: center;
-    }
-
-
-
-    /*Pagina da Marcas*/
-    .mainMarcas #top{
-        margin-top: 40%;
-    }
-    #galery #fotos{
-        display: ruby;
-    }
-    #galery #fotos img{
-        margin: 0%; margin: 20px;
-    }
-
-
-
-
-    /*Pagina LavaCar*/
-    #lavaCar #top{
-        margin-top: 50%;
-    }
-    #lavaCar h1{
-        margin-bottom: -5px;
-    }
-    #lavaCar #groupLCar{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0%;
-        text-align: center;
-    }
-    #lavaCar #groupLCar ul{
-        padding-top: 0px; 
-    }
-    #groupLCar img{
-        width: 103vw; /* Faz a imagem ocupar toda a largura */
-        height: auto; /* Mantém a proporção da imagem */
-        display: block; /* Remove espaços extras */
-    }
-
-    .carrossel-container { /*toda a tabela, junto c os botoes*/
-        position: relative; /*para os botoes*/
-        overflow: hidden;
-        width: 100vw; /* Largura total da tela */
-        overflow: hidden; /* Evita margens inesperadas */
-    }
-    .cardsCarrossel{  /*todos os conhecimentos*/
-        display: flex;
-        margin: auto;
-        transition: transform 0.5s ease-in-out;
-        will-change: transform;
-    
-    }
-    .card{ /*cada foto*/
-        width: 103vw;
-        height: auto; /* Mantém a proporção da imagem */
-        display: block; /* Remove espaços extras */
-    }
-    #groupLCar h4{
-        width: 300px;
-    }
-    #groupLCar h5 img{
-        display: block;
-        width: 30px; margin-bottom: -25px; margin-right: 0px;
-    }
-    #group2LCar{
-        margin-bottom: 50px;
-    }
-    #group2LCar img{
-        width: 80px;
-        margin: 10px;
-    }
+  .carrossel-container {
+    /*toda a tabela, junto c os botoes*/
+    position: relative; /*para os botoes*/
+    overflow: hidden;
+    width: 100vw; /* Largura total da tela */
+    overflow: hidden; /* Evita margens inesperadas */
+  }
+  .cardsCarrossel {
+    /*todos os conhecimentos*/
+    display: flex;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+  }
+  .card {
+    /*cada foto*/
+    width: 103vw;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços extras */
+  }
+  #groupLCar h4 {
+    width: 300px;
+  }
+  #groupLCar h5 img {
+    display: block;
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 0px;
+  }
+  #group2LCar {
+    margin-bottom: 50px;
+  }
+  #group2LCar img {
+    width: 80px;
+    margin: 10px;
+  }
 }

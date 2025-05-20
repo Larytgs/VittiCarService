@@ -1,1143 +1,1148 @@
 @charset "UTF8";
 
-
-:root{
-    --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black;
-    --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa, 0 0 30px #0085FF;
-    --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
-    
+:root {
+  --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px black;
+  --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa,
+    0 0 30px #0085ff;
+  --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red,
+    0 0 30px white;
 }
 :target {
-    scroll-margin-top: 5em; /*para ele rolar no lugar certo qnd clica num botao*/
+  scroll-margin-top: 5em; /*para ele rolar no lugar certo qnd clica num botao*/
 }
-
-
 
 @media all and (min-width: 1010px) and (max-width: 1115px) {
+  /*main*/
+  #texto1 {
+    margin-top: 5%;
+    height: 500px;
+  }
+  #texto1 p {
+    width: 90%;
+  }
+  #texto1 img {
+    width: 400px;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 5%;
-        height: 500px;
-    }
-    #texto1 p{
-        width: 90%;
-    }
-    #texto1 img{
-        width: 400px;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 350px;
+    height: 350px;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 350px;
-        height: 350px;
-    }
+  /*Index retifica*/
+  #retifica img {
+    width: 300px;
+    height: 300px;
+  }
+  #retifica ul {
+    font-weight: 100;
+  }
 
-    /*Index retifica*/
-    #retifica img{
-        width: 300px;
-        height: 300px;
-    }
-    #retifica ul{
-        font-weight: 100;
-    }
+  /*Index Disco de freio*/
+  #freio {
+    height: 90vh;
+  }
+  #freio img {
+    width: 300px;
+  }
 
-    /*Index Disco de freio*/
-    #freio{
-        height: 90vh;
-    }
-    #freio img{
-        width: 300px;
-    }
-
-    /*Index Serviços*/
-    .blocoServ h2{
-        font-size: large;
-    }
-
+  /*Index Serviços*/
+  .blocoServ h2 {
+    font-size: large;
+  }
 }
 
+@media all and (min-width: 960px) and (max-width: 1009px) {
+  /*header geral*/
+  header a {
+    font-size: 1em;
+  }
 
+  /*header Primeira páginal*/
+  .headerIndexH1 h1 {
+    font-size: 2.5em;
+  }
+  .headerIndexH1 h3 {
+    font-size: 1.5em;
+  }
 
+  /*main*/
+  #texto1 {
+    margin-top: 5%;
+    height: 500px;
+  }
+  #texto1 p {
+    width: 90%;
+  }
+  #texto1 img {
+    width: 350px;
+  }
 
-@media all and (min-width: 960px) and (max-width: 1009px) { 
-    /*header geral*/
-    header a{
-        font-size: 1em;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 350px;
+    height: 350px;
+  }
 
-    /*header Primeira páginal*/
-    .headerIndexH1 h1{
-        font-size: 2.5em;
-    }
-    .headerIndexH1 h3{
-        font-size: 1.5em;
-    }
+  /*Index marcas*/
+  #marcas p {
+    text-align: center;
+    padding: 2%;
+    white-space: normal;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 5%;
-        height: 500px;
-    }
-    #texto1 p{
-        width: 90%;
-    }
-    #texto1 img{
-        width: 350px;
-    }
+  /*Index retifica*/
+  #retifica img {
+    width: 300px;
+    height: 300px;
+  }
+  #retifica ul {
+    font-weight: 100;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 350px;
-        height: 350px;
-    }
+  /*Index Disco de freio*/
+  #freio img {
+    width: 300px;
+  }
 
-    /*Index marcas*/
-    #marcas p{
-        text-align: center;
-        padding: 2%; 
-        white-space: normal;
-    }
-
-    /*Index retifica*/
-    #retifica img{
-        width: 300px;
-        height: 300px;
-    }
-    #retifica ul{
-        font-weight: 100;
-    }
-
-    /*Index Disco de freio*/
-    #freio img{
-        width: 300px;
-    }
-
-    /*Index Serviços*/
-    .blocoServ h2{
-        font-size: 1em;
-    }
+  /*Index Serviços*/
+  .blocoServ h2 {
+    font-size: 1em;
+  }
 }
 
+@media all and (min-width: 870px) and (max-width: 959px) {
+  /*para tablets grandes*/
 
+  /*header geral*/
+  header img {
+    width: 140px;
+    /*apenas no js*/
+  }
+  header a {
+    font-size: 1em;
+    padding: 4px;
+  }
 
+  /*header titulos*/
+  .headerIndexH1,
+  .titulosPrincipal h1 {
+    font-size: 2.5em;
+  }
+  .headerIndexH1,
+  .titulosPrincipal h3 {
+    font-size: 1.3em;
+  }
 
-@media all and (min-width: 870px) and (max-width: 959px) { /*para tablets grandes*/ 
+  /*main*/
+  #texto1 {
+    margin-top: 5%;
+    height: 550px;
+  }
+  #texto1 p {
+    width: 90%;
+    padding: 10px;
+  }
+  #texto1 img {
+    width: 340px;
+  }
 
-    /*header geral*/
-    header img{
-        width: 140px;
-        /*apenas no js*/
-    }
-    header a{
-        font-size: 1em;
-        padding: 4px;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 350px;
+    height: 350px;
+  }
 
-    /*header titulos*/
-    .headerIndexH1, .titulosPrincipal h1{
-        font-size: 2.5em;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.3em;
-    }
+  /*Index marcas*/
+  #marcas p {
+    text-align: center;
+    padding: 2%;
+    white-space: normal;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 5%;
-        height: 550px;
-    }
-    #texto1 p{
-        width: 90%;
-        padding: 10px;
-    }
-    #texto1 img{
-        width: 340px;
-    }
+  /*Index retifica*/
+  #retifica img {
+    width: 300px;
+    height: 300px;
+  }
+  #retifica ul {
+    font-weight: 100;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 350px;
-        height: 350px;
-    }
+  /*Index Disco de freio*/
+  #freio img {
+    width: 300px;
+  }
 
-    /*Index marcas*/
-    #marcas p{
-        text-align: center;
-        padding: 2%; 
-        white-space: normal;
-    }
-
-    /*Index retifica*/
-    #retifica img{
-        width: 300px;
-        height: 300px;
-    }
-    #retifica ul{
-        font-weight: 100;
-    }
-
-    /*Index Disco de freio*/
-    #freio img{
-        width: 300px;
-    }
-
-    /*Index Serviços*/
-    .blocoServ h2{
-        font-size: 1em;
-        align-items: center;
-    }
+  /*Index Serviços*/
+  .blocoServ h2 {
+    font-size: 1em;
+    align-items: center;
+  }
 }
 
+@media all and (min-width: 800px) and (max-width: 869px) {
+  /*para tablets medios*/
 
+  /*header geral*/
+  header img {
+    width: 100px;
+    /*apenas no js*/
+  }
+  header .effect {
+    /*menu com os nomes grandes*/
+    display: none;
+  }
 
+  header #menuResponsivo {
+    display: block;
+  }
+  header #menuResponsivo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+  header #menuResponsivo #menuzinho {
+    position: absolute;
+    display: none; /* Esconde o menu ao carregar a página */
+    height: 100px;
+    width: 100px;
+    margin-top: 0%;
+    margin-left: -45px;
+    text-align: center;
+  }
 
-@media all and (min-width: 800px) and (max-width: 869px) { /*para tablets medios*/ 
-    
-    /*header geral*/
-    header img{
-        width: 100px;
-        /*apenas no js*/
-    }
-    header .effect{ /*menu com os nomes grandes*/
-        display: none;
-    }
+  #menuzinho a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 5px;
+    font: 100 0.9em var(--paragrafos);
+    background-color: white;
+    color: black;
+  }
+  #menuzinho a:hover {
+    text-decoration: underline;
+    background-color: #0084ff57;
+  }
 
-    header #menuResponsivo{
-        display: block;
-    }
-    header #menuResponsivo img{
-        width: 40px; height: 40px;
-        cursor: pointer;
-        margin-top: 35px;
-        margin-right: 20px;
-    }
-    header #menuResponsivo #menuzinho{
-        position: absolute;
-        display: none;  /* Esconde o menu ao carregar a página */
-        height: 100px; width: 100px;
-        margin-top: 0%;
-        margin-left: -45px;
-        text-align: center;
-    }
-   
-    #menuzinho a{
-        position: relative;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-        padding-top: 5px; 
-        font: 100 0.9em var(--paragrafos);
-        background-color: white;
-        color: black;
-    }
-    #menuzinho a:hover{
-        text-decoration: underline;
-        background-color: #0084ff57;
-    }
+  /*header titulos*/
+  .headerIndexH1,
+  .titulosPrincipal h1 {
+    font-size: 2.4em;
+  }
+  .headerIndexH1,
+  .titulosPrincipal h3 {
+    font-size: 1.2em;
+  }
 
+  /*main*/
+  #texto1 {
+    margin-top: 10%;
+    height: 580px;
+  }
+  #texto1 p {
+    width: 430px;
+    padding: 10px;
+  }
+  #texto1 img {
+    width: 340px;
+  }
 
-    /*header titulos*/
-    .headerIndexH1, .titulosPrincipal h1{
-        font-size: 2.4em;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.2em;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 350px;
+    height: 350px;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 10%;
-        height: 580px;
-    }
-    #texto1 p{
-        width: 430px;
-        padding: 10px;
-    }
-    #texto1 img{
-        width: 340px;
-    }
+  /*Index marcas*/
+  #marcas h1 {
+    font-size: 1.9em;
+  }
+  #marcas p {
+    text-align: center;
+    padding: 0% 6% 2% 2%;
+    white-space: normal;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 350px;
-        height: 350px;
-    }
+  /*Index retifica*/
+  #retifica img {
+    width: 230px;
+    height: 230px;
+  }
+  #retifica ul {
+    font-weight: 100;
+  }
 
-    /*Index marcas*/
-    #marcas h1{
-        font-size: 1.9em;
-    }
-    #marcas p{
-        text-align: center;
-        padding: 0% 6% 2% 2%; 
-        white-space: normal;
-    }
+  /*Index Disco de freio*/
+  #freio img {
+    width: 300px;
+  }
 
-    /*Index retifica*/
-    #retifica img{
-        width: 230px;
-        height: 230px;
-    }
-    #retifica ul{
-        font-weight: 100;
-    }
+  /*Index Serviços*/
+  .blocoServ h2 {
+    font-size: 1em;
+    align-items: center;
+  }
 
-    /*Index Disco de freio*/
-    #freio img{
-        width: 300px;
-    }
-
-    /*Index Serviços*/
-    .blocoServ h2{
-        font-size: 1em;
-        align-items: center;
-    }
-
-
-    /*footer*/
-    footer h1{
-        font-size: 1.2em;
-    }
-    footer h3{
-        font-size: 1.1em;
-    }
-    footer .local div{
-        width: 200px;
-    }
-    footer .sociais img{
-        width: 40px; height: 40px;
-    }
+  /*footer*/
+  footer h1 {
+    font-size: 1.2em;
+  }
+  footer h3 {
+    font-size: 1.1em;
+  }
+  footer .local div {
+    width: 200px;
+  }
+  footer .sociais img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
+@media all and (min-width: 660px) and (max-width: 799px) {
+  /*para tablets pqnos*/
 
+  /*header geral*/
+  header img {
+    width: 100px;
+    /*apenas no js*/
+  }
 
+  header .effect {
+    /*menu com os nomes grandes*/
+    display: none;
+  }
+  header #menuResponsivo {
+    display: block;
+  }
+  header #menuResponsivo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+  header #menuResponsivo #menuzinho {
+    position: absolute;
+    display: none; /* Esconde o menu ao carregar a página */
+    height: 100px;
+    width: 100px;
+    margin-top: 0%;
+    margin-left: -45px;
+    text-align: center;
+  }
 
-@media all and (min-width: 660px) and (max-width: 799px) { /*para tablets pqnos*/ 
+  #menuzinho a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 8px;
+    margin: 1px;
+    font: 100 0.9em var(--paragrafos);
+    background-color: white;
+    color: black;
+  }
+  #menuzinho a:hover {
+    text-decoration: underline;
+  }
 
-    /*header geral*/
-    header img{
-        width: 100px;
-        /*apenas no js*/
-    }
+  /*header titulos*/
+  .headerIndexH1,
+  .titulosPrincipal h1 {
+    font-size: 2.1em;
+  }
+  .headerIndexH1,
+  .titulosPrincipal h3 {
+    font-size: 1.2em;
+  }
 
-    header .effect{ /*menu com os nomes grandes*/
-        display: none;
-    }
-    header #menuResponsivo{
-        display: block;
-    }
-    header #menuResponsivo img{
-        width: 40px; height: 40px;
-        cursor: pointer;
-        margin-top: 35px;
-        margin-right: 20px;
-    }
-    header #menuResponsivo #menuzinho{
-        position: absolute;
-        display: none;  /* Esconde o menu ao carregar a página */
-        height: 100px; width: 100px;
-        margin-top: 0%;
-        margin-left: -45px;
-        text-align: center;
-    }
-   
-    #menuzinho a{
-        position: relative;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-        padding-top: 8px; margin: 1px;
-        font: 100 0.9em var(--paragrafos);
-        background-color: white;
-        color: black;
-    }
-    #menuzinho a:hover{
-        text-decoration: underline;
-    }
+  /*main*/
+  #texto1 {
+    margin-top: 14%;
+    height: 540px;
+  }
+  #texto1 section {
+    padding: 20px;
+  }
+  #texto1 h1 {
+    padding-top: 10px;
+  }
+  #texto1 p {
+    width: 90%;
+    padding: 20px;
+  }
+  #texto1 #imgferramentas {
+    display: none;
+  }
 
-    /*header titulos*/
-    .headerIndexH1, .titulosPrincipal h1{
-        font-size: 2.1em;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.2em;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 310px;
+    height: 310px;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 14%;
-        height: 540px;
-    }
-    #texto1 section{
-        padding: 20px; 
-    }
-    #texto1 h1{
-        padding-top: 10px;
-    }
-    #texto1 p{
-        width: 90%;
-        padding: 20px;
-    }
-    #texto1 #imgferramentas{
-        display: none;
-    }
+  /*Index marcas*/
+  #marcas {
+    margin: 20% 0% 1%; /*margem em baixo do motor*/
+  }
+  #marcas h1 {
+    font-size: 1.8em;
+  }
+  #marcas p {
+    text-align: center;
+    padding: 2%;
+    white-space: normal;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 310px;
-        height: 310px;
-    }
+  /*Index retifica*/
+  #retifica h1 {
+    font-size: 1.8em;
+  }
+  #retifica img {
+    width: 200px;
+    height: 200px;
+  }
+  #retifica ul {
+    font-weight: 100;
+  }
 
-    /*Index marcas*/
-    #marcas{
-        margin: 20% 0% 1%; /*margem em baixo do motor*/
-    }
-    #marcas h1{
-        font-size: 1.8em;
-    }
-    #marcas p{
-        text-align: center;
-        padding: 2%;
-        white-space: normal;
-    }
+  /*Index Disco de freio*/
+  #freio h1 {
+    font-size: 1.8em;
+  }
+  #blocoDetals {
+    margin-right: 0%; /*alinhando o bloco no meio*/
+  }
+  #freio img {
+    width: 250px;
+    margin: 0px 10px;
+  }
+  #freio h3 {
+    display: none;
+  }
 
-    /*Index retifica*/
-    #retifica h1{
-        font-size: 1.8em;
-    }
-    #retifica img{
-        width: 200px;
-        height: 200px;
-    }
-    #retifica ul{
-        font-weight: 100;
-    }
+  /*Index Serviços*/
+  .blocoServ {
+    display: block;
+    columns: 2;
+    align-items: flex-start;
+  }
+  #servBlocao {
+    display: inline-block;
+    margin: auto;
+  }
+  .blocoServ {
+    margin: 5px 10px;
+  }
+  .blocoServ div {
+    align-items: flex-start;
+    margin: 0%;
+  }
+  .blocoServ h2 {
+    font-size: 0.9em;
+    align-items: center;
+  }
 
-    /*Index Disco de freio*/
-    #freio h1{
-        font-size: 1.8em;
-    }
-    #blocoDetals{
-        margin-right: 0%;  /*alinhando o bloco no meio*/
-    }
-    #freio img{
-        width: 250px;
-        margin: 0px 10px;
-    }
-    #freio h3{
-        display: none;
-    }
-
-    /*Index Serviços*/
-    .blocoServ{
-        display: block;
-        columns: 2;
-        align-items: flex-start;
-    }
-    #servBlocao{
-        display: inline-block;
-        margin: auto;
-    }
-    .blocoServ{
-        margin: 5px 10px;
-    }
-    .blocoServ div{
-        align-items: flex-start;
-        margin: 0%; 
-    }
-    .blocoServ h2{
-        font-size: 0.9em;
-        align-items: center;
-    }
-
-
-    /*footer*/
-    footer h1{
-        font-size: 1.2em;
-    }
-    footer h3{
-        font-size: 1.1em;
-    }
-    footer .local div{
-        width: 200px;
-    }
-    footer .sociais img{
-        width: 40px; height: 40px;
-    }
+  /*footer*/
+  footer h1 {
+    font-size: 1.2em;
+  }
+  footer h3 {
+    font-size: 1.1em;
+  }
+  footer .local div {
+    width: 200px;
+  }
+  footer .sociais img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
+@media all and (min-width: 530px) and (max-width: 659px) {
+  /*tive que fazer outro menor*/
+  /*header geral*/
+  header img {
+    width: 100px;
+    /*apenas no js*/
+  }
 
+  header .effect {
+    /*menu com os nomes grandes*/
+    display: none;
+  }
+  header #menuResponsivo {
+    display: block;
+  }
+  header #menuResponsivo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+  header #menuResponsivo #menuzinho {
+    position: absolute;
+    display: none; /* Esconde o menu ao carregar a página */
+    height: 100px;
+    width: 100px;
+    margin-top: 0%;
+    margin-left: -45px;
+    text-align: center;
+  }
 
+  #menuzinho a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 8px;
+    margin: 1px;
+    font: 100 0.9em var(--paragrafos);
+    background-color: white;
+    color: black;
+  }
+  #menuzinho a:hover {
+    text-decoration: underline;
+  }
 
-@media all and (min-width: 530px ) and (max-width: 659px){ /*tive que fazer outro menor*/
-    /*header geral*/
-    header img{
-        width: 100px;
-        /*apenas no js*/
-    }
+  /*header titulos*/
+  .headerIndexH1,
+  .titulosPrincipal h1 {
+    font-size: 2.2em;
+  }
+  .headerIndexH1,
+  .titulosPrincipal h3 {
+    font-size: 1.3em;
+  }
 
-    header .effect{ /*menu com os nomes grandes*/
-        display: none;
-    }
-    header #menuResponsivo{
-        display: block;
-    }
-    header #menuResponsivo img{
-        width: 40px; height: 40px;
-        cursor: pointer;
-        margin-top: 35px;
-        margin-right: 20px;
-        
-    }
-    header #menuResponsivo #menuzinho{
-        position: absolute;
-        display: none;  /* Esconde o menu ao carregar a página */
-        height: 100px; width: 100px;
-        margin-top: 0%;
-        margin-left: -45px;
-        text-align: center;
-    }
-   
-    #menuzinho a{
-        position: relative;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-        padding-top: 8px; margin: 1px;
-        font: 100 0.9em var(--paragrafos);
-        background-color: white;
-        color: black;
-    }
-    #menuzinho a:hover{
-        text-decoration: underline;
-    }
+  /*main*/
+  #texto1 {
+    margin-top: 20%;
+    height: 460px;
+  }
+  #texto1 section {
+    padding: 20px;
+  }
+  #texto1 h1 {
+    padding-top: 10px;
+  }
+  #texto1 p {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
+  }
+  #texto1 #imgferramentas {
+    display: none;
+  }
 
-    /*header titulos*/
-    .headerIndexH1, .titulosPrincipal h1{
-        font-size: 2.2em;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.3em;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 300px;
+    height: 300px;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 20%;
-        height: 460px;
-    }
-    #texto1 section{
-        padding: 20px; 
-    }
-    #texto1 h1{
-        padding-top: 10px;
-    }
-    #texto1 p{
-        width: 90%;
-        padding: 20px;
-        margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
-    }
-    #texto1 #imgferramentas{
-        display: none;
-    }
+  /*Index marcas*/
+  #marcas {
+    margin: 20% 0% 10%; /*margem em baixo do motor*/
+  }
+  #marcas h1 {
+    font-size: 1.6em;
+  }
+  #marcas p {
+    text-align: center;
+    padding: 2%;
+    white-space: normal;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 300px;
-        height: 300px;
-    }
+  /*Index retifica*/
+  #retifica h1 {
+    font-size: 1.6em;
+  }
+  #retifica p {
+    padding-bottom: 20px;
+  }
+  #retifica div {
+    display: block;
+    margin: 0%;
+  }
+  #retifica img {
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 30px;
+  }
+  #retifica ul {
+    columns: 2;
+    width: 500px;
+    font-weight: 100;
+  }
 
-    /*Index marcas*/
-    #marcas{
-        margin: 20% 0% 10%; /*margem em baixo do motor*/
-    }
-    #marcas h1{
-        font-size: 1.6em;
-    }
-    #marcas p{
-        text-align: center;
-        padding: 2%;
-        white-space: normal;
-    }
+  /*Index Disco de freio*/
+  #freio h1 {
+    font-size: 1.6em;
+  }
+  #blocoFreio {
+    margin-right: 6%;
+  }
+  #blocoDetals {
+    margin-right: 0%; /*alinhando o bloco no meio*/
+  }
+  #freio img {
+    width: 250px;
+    margin: 0px 10px;
+  }
+  #freio h3 {
+    display: none;
+  }
 
-    /*Index retifica*/
-    #retifica h1{
-        font-size: 1.6em;
-    }
-    #retifica p{
-        padding-bottom: 20px;
-    }
-    #retifica div{
-        display: block;
-        margin: 0%;
-    }
-    #retifica img{
-        width: 200px;
-        height: 200px;
-        margin: 0px 0px 30px;
-    }
-    #retifica ul{
-        columns: 2;
-        width: 500px;
-        font-weight: 100;
-    }
+  /*Index Serviços*/
+  #serviço h1 {
+    font-size: 1.6em;
+  }
+  .blocoServ {
+    display: ruby;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+  .blocoServ div {
+    margin: 0%;
+    margin-bottom: 10px;
+  }
+  .blocoServ h2 {
+    font-size: 0.9em;
+    align-items: center;
+  }
+  #botaoServiços {
+    text-align: center;
+    margin-top: 20px;
+  }
 
+  /*footer*/
+  footer h1 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  footer h3 {
+    font-size: 1.1em;
+  }
+  footer .local div {
+    width: 200px;
+  }
+  footer .sociais img {
+    width: 35px;
+    height: 35px;
+  }
+  footer .sociais #div2 {
+    display: none;
+  }
 
-    /*Index Disco de freio*/
-    #freio h1{
-        font-size: 1.6em;
-    }
-    #blocoFreio{
-        margin-right: 6%;
-    }
-    #blocoDetals{
-        margin-right: 0%;  /*alinhando o bloco no meio*/
-    }
-    #freio img{
-        width: 250px;
-        margin: 0px 10px;
-    }
-    #freio h3{
-        display: none;
-    }
-
-    /*Index Serviços*/
-    #serviço h1{
-        font-size: 1.6em;
-    }
-    .blocoServ{
-        display: ruby;
-        align-items: center;
-        margin-bottom: 0%;
-    }
-    .blocoServ div{
-        margin: 0%; 
-        margin-bottom: 10px;
-    }
-    .blocoServ h2{
-        font-size: 0.9em;
-        align-items: center;
-    }
-    #botaoServiços{
-        text-align: center;
-        margin-top: 20px;
-    }
-
-
-    /*footer*/
-    footer h1{
-        font-size: 1.2em;
-        margin-top: 10px;
-    }
-    footer h3{
-        font-size: 1.1em;
-    }
-    footer .local div{
-        width: 200px;
-    }
-    footer .sociais img{
-        width: 35px; height: 35px;
-    }
-    footer .sociais #div2{
-        display: none;
-    }
-
-    footer .scroll-top {
-        position: fixed;
-        bottom: 10px;
-        right: 20px;
-    }
-    footer .scroll-top img{
-        width: 40px;
-    }
+  footer .scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+  footer .scroll-top img {
+    width: 40px;
+  }
 }
 
+@media all and (min-width: 450px) and (max-width: 529px) {
+  /*para celular*/
 
+  /*header geral*/
+  header img {
+    width: 100px;
+    /*apenas no js*/
+  }
 
+  header .effect {
+    /*menu com os nomes grandes*/
+    display: none;
+  }
 
-@media all and (min-width: 450px ) and (max-width: 529px) { /*para celular*/ 
+  .headerIndexH1,
+  .titulosPrincipal h1 {
+    font-size: 1.7em;
+  }
+  .headerIndexH1,
+  .titulosPrincipal h3 {
+    font-size: 1.2em;
+  }
 
-    /*header geral*/
-    header img{
-        width: 100px;
-        /*apenas no js*/
-    }
+  header #menuResponsivo {
+    display: block;
+  }
+  header #menuResponsivo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+  header #menuResponsivo #menuzinho {
+    position: absolute;
+    display: none; /* Esconde o menu ao carregar a página */
+    height: 100px;
+    width: 100px;
+    margin-top: 0%;
+    margin-left: -45px;
+    text-align: center;
+  }
 
-    header .effect{ /*menu com os nomes grandes*/
-        display: none;
-    }
-    
-    .headerIndexH1, .titulosPrincipal h1{
-        font-size: 1.7em;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.2em;
-    }
+  #menuzinho a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 8px;
+    margin: 1px;
+    font: 100 0.9em var(--paragrafos);
+    background-color: white;
+    color: black;
+  }
+  #menuzinho a:hover {
+    text-decoration: underline;
+  }
 
-    header #menuResponsivo{
-        display: block;
-    }
-    header #menuResponsivo img{
-        width: 40px; height: 40px;
-        cursor: pointer;
-        margin-top: 35px;
-        margin-right: 20px;
-    }
-    header #menuResponsivo #menuzinho{
-        position: absolute;
-        display: none;  /* Esconde o menu ao carregar a página */
-        height: 100px; width: 100px;
-        margin-top: 0%;
-        margin-left: -45px;
-        text-align: center;
-    }
-   
-    #menuzinho a{
-        position: relative;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-        padding-top: 8px; margin: 1px;
-        font: 100 0.9em var(--paragrafos);
-        background-color: white;
-        color: black;
-    }
-    #menuzinho a:hover{
-        text-decoration: underline;
-    }
+  /*main*/
+  #texto1 {
+    margin-top: 25%;
+    height: 510px;
+  }
+  #texto1 section {
+    padding: 20px;
+  }
+  #texto1 h1 {
+    padding-top: 10px;
+  }
+  #texto1 p {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
+  }
+  #texto1 #imgferramentas {
+    display: none;
+  }
 
-    
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 300px;
+    height: 300px;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 25%;
-        height: 510px;
-    }
-    #texto1 section{
-        padding: 20px; 
-    }
-    #texto1 h1{
-        padding-top: 10px;
-    }
-    #texto1 p{
-        width: 90%;
-        padding: 20px;
-        margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
-    }
-    #texto1 #imgferramentas{
-        display: none;
-    }
+  /*Index marcas*/
+  #marcas {
+    margin: 25% 0% 10%; /*margem em baixo do motor*/
+  }
+  #marcas h1 {
+    font-size: 1.6em;
+  }
+  #marcas p {
+    text-align: center;
+    padding: 2%;
+    white-space: normal;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 300px;
-        height: 300px;
-    }
+  /*Index retifica*/
+  #retifica h1 {
+    font-size: 1.6em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #retifica p {
+    padding-bottom: 20px;
+    padding: 2%;
+    white-space: normal;
+  }
+  #retifica div {
+    /*para colocar a ul em baixo*/
+    display: block;
+    margin: 0%;
+  }
+  #retifica img {
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 30px;
+  }
+  #retifica ul {
+    columns: 1;
+    width: 100%;
+    font-weight: 100;
+  }
 
-    /*Index marcas*/
-    #marcas{
-        margin: 25% 0% 10%; /*margem em baixo do motor*/
-    }
-    #marcas h1{
-        font-size: 1.6em;
-    }
-    #marcas p{
-        text-align: center;
-        padding: 2%; 
-        white-space: normal;
-    }
+  /*Index Disco de freio*/
+  #freio h1 {
+    font-size: 1.6em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #freio p {
+    margin-bottom: -20px;
+  }
+  #blocoFreio {
+    margin-right: 0%;
+    display: block;
+  }
+  #blocoDetals {
+    margin: 2%; /*alinhando o bloco no meio*/
+    width: 90%;
+  }
+  #freio img {
+    width: 250px;
+    margin: 0px;
+  }
+  #freio h3 {
+    display: none;
+  }
 
-    /*Index retifica*/
-    #retifica h1{
-        font-size: 1.6em;
-        padding-left: 10px; padding-right: 10px;
-    }
-    #retifica p{
-        padding-bottom: 20px;
-        padding: 2%;
-        white-space: normal;
-    }
-    #retifica div{ /*para colocar a ul em baixo*/
-        display: block;
-        margin: 0%;
-    }
-    #retifica img{
-        width: 200px;
-        height: 200px;
-        margin: 0px 0px 30px;
-    }
-    #retifica ul{
-        columns: 1;
-        width: 100%;
-        font-weight: 100;
-    }
+  /*Index Serviços*/
+  #serviço h1 {
+    font-size: 1.6em;
+  }
+  .blocoServ {
+    display: ruby;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+  .blocoServ div {
+    margin: 0%;
+    margin-bottom: 10px;
+  }
+  .blocoServ h2 {
+    font-size: 0.9em;
+    align-items: center;
+  }
+  #botaoServiços {
+    text-align: center;
+    margin-top: 20px;
+  }
 
+  /*footer*/
+  footer {
+    text-align: center;
+  }
+  footer h1 {
+    font-size: 1.2em;
+  }
+  footer #blocoFooter {
+    display: block;
+    padding: 2%;
+  }
+  footer h3 {
+    font-size: 1.1em;
+  }
 
-    /*Index Disco de freio*/
-    #freio h1{
-        font-size: 1.6em;
-        padding-left: 10px; padding-right: 10px;
-    }
-    #freio p{
-        margin-bottom: -20px;
-    }
-    #blocoFreio{
-        margin-right: 0%;
-        display: block;
-    }
-    #blocoDetals{
-        margin: 2%;  /*alinhando o bloco no meio*/
-        width: 90%;
-    }
-    #freio img{
-        width: 250px;
-        margin: 0px;
-    }
-    #freio h3{
-        display: none;
-    }
+  footer #div1 {
+    display: flex;
+  }
+  footer #div1 div {
+    margin: 5px;
+  }
+  footer #div2 {
+    display: ruby;
+  }
 
+  footer .horario {
+    display: block;
+  }
+  footer .horario .hora {
+    display: ruby; /*deixa centralizado*/
+  }
+  footer .feriado {
+    margin-top: 20px;
+  }
 
-    /*Index Serviços*/
-    #serviço h1{
-        font-size: 1.6em;
-    }
-    .blocoServ{
-        display: ruby;
-        align-items: center;
-        margin-bottom: 0%;
-    }
-    .blocoServ div{
-        margin: 0%; 
-        margin-bottom: 10px;
-    }
-    .blocoServ h2{
-        font-size: 0.9em;
-        align-items: center;
-    }
-    #botaoServiços{
-        text-align: center;
-        margin-top: 20px;
-    }
+  footer .local {
+    margin-top: 15px;
+  }
+  footer .local div {
+    width: 200px;
+    display: ruby; /*deixa centralizado*/
+  }
 
+  footer .sociais {
+    margin-top: 15px;
+  }
+  footer .sociais img {
+    width: 35px;
+    height: 35px;
+  }
+  footer .sociais #div2 {
+    display: none;
+  }
 
-    /*footer*/
-    footer{
-        text-align: center;
-    }
-    footer h1{
-        font-size: 1.2em;
-    }
-    footer #blocoFooter{
-        display: block;
-        padding: 2%;
-    }
-    footer h3{
-        font-size: 1.1em;
-    }
-
-    footer #div1{
-        display: flex;
-    }
-    footer #div1 div{
-        margin: 5px;
-    }
-    footer #div2{
-        display: ruby;
-    }
-
-    footer .horario{
-        display: block;
-    }
-    footer .horario .hora{
-        display: ruby; /*deixa centralizado*/
-    }
-    footer .feriado{
-        margin-top: 20px;
-    }
-
-    footer .local{
-        margin-top: 15px;
-    }
-    footer .local div{
-        width: 200px;
-        display: ruby; /*deixa centralizado*/
-    }
-
-    footer .sociais{
-        margin-top: 15px;
-    }
-    footer .sociais img{
-        width: 35px; height: 35px;
-    }
-    footer .sociais #div2{
-        display: none;
-    }
-
-
-    footer .scroll-top {
-        position: fixed;
-        bottom: 10px;
-        right: 20px;
-    }
-    footer .scroll-top img{
-        width: 35px;
-    }
+  footer .scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+  footer .scroll-top img {
+    width: 35px;
+  }
 }
 
+@media all and (min-width: 320px) and (max-width: 449px) {
+  /*para celular menores*/
 
+  /*header geral*/
+  header img {
+    width: 100px;
+    /*apenas no js*/
+  }
 
+  header .effect {
+    /*menu com os nomes grandes*/
+    display: none;
+  }
 
-@media all and (min-width: 320px ) and (max-width: 449px) { /*para celular menores*/
+  .headerIndexH1,
+  .titulosPrincipal h1 {
+    font-size: 1.8em;
+  }
+  .headerIndexH1,
+  .titulosPrincipal h3 {
+    font-size: 1.2em;
+  }
+  /*apenas para o header index, blog, qSomos e marcas*/
+  .headerIndexH1 h3 {
+    width: 300px;
+  }
+  .headerBlogH1 h3 {
+    width: 300px;
+  }
+  .headerQSomosH1 h3 {
+    width: 300px;
+  }
+  .headerMarcasH1 h3 {
+    width: 300px;
+  }
 
-    /*header geral*/
-    header img{
-        width: 100px;
-        /*apenas no js*/
-    }
+  header #menuResponsivo {
+    display: block;
+  }
+  header #menuResponsivo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 20px;
+  }
+  header #menuResponsivo #menuzinho {
+    position: absolute;
+    display: none; /* Esconde o menu ao carregar a página */
+    height: 100px;
+    width: 100px;
+    margin-top: 0%;
+    margin-left: -45px;
+    text-align: center;
+  }
 
-    header .effect{ /*menu com os nomes grandes*/
-        display: none;
-    }
+  #menuzinho a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 8px;
+    margin: 1px;
+    font: 100 0.9em var(--paragrafos);
+    background-color: white;
+    color: black;
+  }
+  #menuzinho a:hover {
+    text-decoration: underline;
+  }
 
-    .headerIndexH1, .titulosPrincipal h1{
-        font-size: 1.8em;
-    }
-    .headerIndexH1, .titulosPrincipal h3{
-        font-size: 1.2em;
-    }
-    /*apenas para o header index, blog, qSomos e marcas*/
-    .headerIndexH1 h3{ 
-        width: 300px;
-    }
-    .headerBlogH1 h3{
-        width: 300px;
-    }
-    .headerQSomosH1 h3{
-        width: 300px;
-    }
-    .headerMarcasH1 h3{
-        width: 300px;
-    }
+  /*main*/
+  #texto1 {
+    margin-top: 30%;
+    height: 560px;
+  }
+  #texto1 section {
+    padding: 20px;
+  }
+  #texto1 h1 {
+    padding-top: 10px;
+  }
+  #texto1 p {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
+  }
+  #texto1 #imgferramentas {
+    display: none;
+  }
 
-    header #menuResponsivo{
-        display: block;
-    }
-    header #menuResponsivo img{
-        width: 40px; height: 40px;
-        cursor: pointer;
-        margin-top: 35px;
-        margin-right: 20px;
-    }
-    header #menuResponsivo #menuzinho{
-        position: absolute;
-        display: none;  /* Esconde o menu ao carregar a página */
-        height: 100px; width: 100px;
-        margin-top: 0%;
-        margin-left: -45px;
-        text-align: center;
-    }
-   
-    #menuzinho a{
-        position: relative;
-        display: inline-block;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-        padding-top: 8px; margin: 1px;
-        font: 100 0.9em var(--paragrafos);
-        background-color: white;
-        color: black;
-    }
-    #menuzinho a:hover{
-        text-decoration: underline;
-    }
+  /*imagem do motor suspensa no Index*/
+  #imagemMotor img {
+    width: 295px;
+    height: 295px;
+  }
 
-   
+  /*Index marcas*/
+  #marcas {
+    margin: 40% 0% 10%; /*margem em baixo do motor*/
+  }
+  #marcas h1 {
+    font-size: 1.6em;
+  }
+  #marcas p {
+    text-align: center;
+    padding: 2%;
+    white-space: normal;
+  }
 
-    /*main*/
-    #texto1{
-        margin-top: 35%;
-        height: 560px;
-    }
-    #texto1 section{
-        padding: 20px; 
-    }
-    #texto1 h1{
-        padding-top: 10px;
-    }
-    #texto1 p{
-        width: 90%;
-        padding: 20px;
-        margin-bottom: -30px; /* Reduz o espaçamento entre os parágrafos */
-    }
-    #texto1 #imgferramentas{
-        display: none;
-    }
+  /*Index retifica*/
+  #retifica {
+    padding-bottom: 20px;
+  }
+  #retifica h1 {
+    font-size: 1.6em;
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  #retifica p {
+    padding-bottom: 20px;
+  }
+  #retifica div {
+    /*para colocar a ul em baixo*/
+    display: block;
+    margin: 0%;
+  }
+  #retifica img {
+    width: 200px;
+    height: 200px;
+    margin: 0px 0px 30px;
+  }
+  #retifica ul {
+    columns: 1;
+    width: 100%;
+    font-weight: 100;
+    padding: 0% 5% 0% 1;
+  }
 
-    /*imagem do motor suspensa no Index*/
-    #imagemMotor img{ 
-        width: 295px;
-        height: 295px;
-    }
+  /*Index Disco de freio*/
+  #freio h1 {
+    font-size: 1.6em;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #freio p {
+    margin-bottom: -20px;
+  }
+  #blocoFreio {
+    margin-right: 0%;
+    display: block;
+  }
+  #blocoDetals {
+    margin: 2%; /*alinhando o bloco no meio*/
+    width: 90%;
+  }
+  #freio img {
+    width: 250px;
+    margin: 0px;
+  }
+  #freio h3 {
+    display: none;
+  }
 
-    /*Index marcas*/
-    #marcas{
-        margin: 40% 0% 10%; /*margem em baixo do motor*/
-    }
-    #marcas h1{
-        font-size: 1.6em;
-    }
-    #marcas p{
-        text-align: center;
-        padding: 2%;
-        white-space: normal;
-    }
+  /*Index Serviços*/
+  #serviço {
+    overflow: hidden;
+  }
+  #serviço h1 {
+    font-size: 1.6em;
+  }
+  .blocoServ {
+    display: ruby;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+  .blocoServ div {
+    margin: 0%;
+    margin-bottom: 10px;
+    border-radius: 30px 0px;
+  }
+  .blocoServ h2 {
+    font-size: 0.9em;
+    align-items: center;
+  }
+  #botaoServiços {
+    text-align: center;
+    margin-top: 20px;
+  }
 
-    /*Index retifica*/
-    #retifica{
-        padding-bottom: 20px;
-    }
-    #retifica h1{
-        font-size: 1.6em;
-        padding-left: 21px; padding-right: 21px;
-    }
-    #retifica p{
-        padding-bottom: 20px;
-    }
-    #retifica div{ /*para colocar a ul em baixo*/
-        display: block;
-        margin: 0%;
-    }
-    #retifica img{
-        width: 200px;
-        height: 200px;
-        margin: 0px 0px 30px;
-    }
-    #retifica ul{
-        columns: 1;
-        width: 100%;
-        font-weight: 100;
-        padding: 0% 5% 0% 1
-    }
+  /*footer*/
+  footer {
+    text-align: center;
+  }
+  footer h1 {
+    font-size: 1.2em;
+  }
+  footer #blocoFooter {
+    display: block;
+    padding: 2%;
+  }
+  footer h3 {
+    font-size: 1.1em;
+  }
 
+  footer .horario {
+    display: block;
+  }
+  footer #div1 {
+    display: flex;
+  }
+  footer #div1 div {
+    margin: 5px;
+  }
+  footer #div2 {
+    display: ruby;
+  }
+  footer .horario .hora {
+    display: ruby; /*deixa centralizado*/
+  }
+  footer .feriado {
+    margin-top: 20px;
+  }
 
-    /*Index Disco de freio*/
-    #freio h1{
-        font-size: 1.6em;
-        padding-left: 50px; padding-right: 50px;
-    }
-    #freio p{
-        margin-bottom: -20px;
-    }
-    #blocoFreio{
-        margin-right: 0%;
-        display: block;
-    }
-    #blocoDetals{
-        margin: 2%;  /*alinhando o bloco no meio*/
-        width: 90%;
-    }
-    #freio img{
-        width: 250px;
-        margin: 0px;
-    }
-    #freio h3{
-        display: none;
-    }
+  footer .local {
+    margin-top: 15px;
+  }
+  footer .local div {
+    width: 200px;
+    display: ruby; /*deixa centralizado*/
+  }
 
+  footer .sociais {
+    margin-top: 15px;
+  }
+  footer .sociais img {
+    width: 35px;
+    height: 35px;
+  }
+  footer .sociais #div2 {
+    display: none;
+  }
 
-
-    /*Index Serviços*/
-    #serviço{
-        overflow: hidden;
-    }
-    #serviço h1{
-        font-size: 1.6em;
-    }
-    .blocoServ{
-        display: ruby;
-        align-items: center;
-        margin-bottom: 0%;
-    }
-    .blocoServ div{
-        margin: 0%; 
-        margin-bottom: 10px;
-        border-radius: 30px 0px;
-    }
-    .blocoServ h2{
-        font-size: 0.9em;
-        align-items: center;
-    }
-    #botaoServiços{
-        text-align: center;
-        margin-top: 20px;
-    }
-
-
-    /*footer*/
-    footer{
-        text-align: center;
-    }
-    footer h1{
-        font-size: 1.2em;
-    }
-    footer #blocoFooter{
-        display: block;
-        padding: 2%;
-    }
-    footer h3{
-        font-size: 1.1em;
-    }
-
-    footer .horario{
-        display: block;
-    }
-    footer #div1{
-        display: flex;
-    }
-    footer #div1 div{
-        margin: 5px;
-    }
-    footer #div2{
-        display: ruby;
-    }  
-    footer .horario .hora{
-        display: ruby; /*deixa centralizado*/
-    }
-    footer .feriado{
-        margin-top: 20px;
-    }
-
-    footer .local{
-        margin-top: 15px;
-    }
-    footer .local div{
-        width: 200px;
-        display: ruby; /*deixa centralizado*/
-    }
-
-    footer .sociais{
-        margin-top: 15px;
-    }
-    footer .sociais img{
-        width: 35px; height: 35px;
-    }
-    footer .sociais #div2{
-        display: none;
-    }
-
-
-    footer .scroll-top {
-        position: fixed;
-        bottom: 10px;
-        right: 20px;
-    }
-    footer .scroll-top img{
-        width: 35px;
-    }
+  footer .scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+  footer .scroll-top img {
+    width: 35px;
+  }
 }

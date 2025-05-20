@@ -23,9 +23,7 @@ body {
   box-sizing: content-box;
   align-items: center;
   overflow: hidden;
-  margin-top: 5%;
-
-  scroll-margin-top: 120px; /* Compensa o menu fixo, com folga */
+  margin-top: 2%;
 }
 .blocoServ2 {
   display: flex;
@@ -60,6 +58,9 @@ body {
 /*Pagina do Blog*/
 main #blog {
   box-sizing: content-box;
+}
+#blog #top {
+  margin-top: 2%;
 }
 #blog h1 {
   display: none;
@@ -109,6 +110,9 @@ main #curiosidades img {
 /*Pagina quem somos*/
 #qSomos {
   box-sizing: content-box;
+}
+#qSomos #section1 {
+  margin-top: 2%;
 }
 .container {
   display: flex;
@@ -180,6 +184,9 @@ details {
   margin: auto;
   box-sizing: content-box;
   text-align: center;
+}
+#lavaCar #top {
+  margin-top: 2%;
 }
 #lavaCar h1 {
   text-align: center;

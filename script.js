@@ -27,16 +27,12 @@ function diminuirMenu() {
       img.style.margin = "10px 100px";
     }
 
-    main.style.paddingTop = "110px";
+    main.style.paddingTop = "50vh";
     h1.style.display = "none";
   } else {
     //header grande
     menu.style.height = "100vh";
     menu.style.position = "fixed";
-
-    //img.style.height = '150px';
-    //img.style.width = '150px';
-    //img.style.margin = '10px 30px';
 
     // Condição para a imagem no tamanho da tela (responsividade)
     if (window.innerWidth < 799) {

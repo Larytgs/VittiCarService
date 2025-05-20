@@ -15,7 +15,6 @@
 @media all and (min-width: 1010px) and (max-width: 1115px) {
   /*main*/
   #texto1 {
-    margin-top: 5%;
     height: 500px;
   }
   #texto1 p {
@@ -138,7 +137,6 @@
 
   /*main*/
   #texto1 {
-    margin-top: 5%;
     height: 550px;
   }
   #texto1 p {
@@ -244,7 +242,6 @@
 
   /*main*/
   #texto1 {
-    margin-top: 10%;
     height: 580px;
   }
   #texto1 p {

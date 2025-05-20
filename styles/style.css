@@ -35,7 +35,6 @@ main {
   width: 99.88%;
   box-sizing: content-box;
   overflow-x: hidden; /* apenas lateral, se necessário */
-  overflow-y: visible;
 }
 main h1 {
   text-align: center;
@@ -49,7 +48,6 @@ main h1 {
   height: 550px;
   box-sizing: content-box;
   background-color: rgba(128, 128, 128, 0.253);
-  margin-top: -2%;
 }
 #texto1 section {
   text-align: center;
@@ -74,7 +72,7 @@ main h1 {
   width: 645px;
 }
 #texto1 img {
-  width: 600px;
+  width: 500px;
 }
 
 /*imagem do motor suspensa no Index*/

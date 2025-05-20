@@ -15,7 +15,7 @@ function diminuirMenu() {
     menu.style.position = "fixed";
 
     // Condição para a imagem no tamanho da tela (responsividade)
-    if (window.innerWidth < 799) {
+    if (window.innerWidth < 868) {
       // Telas pequena
       img.style.height = "70px";
       img.style.width = "70px";
@@ -35,7 +35,7 @@ function diminuirMenu() {
     menu.style.position = "fixed";
 
     // Condição para a imagem no tamanho da tela (responsividade)
-    if (window.innerWidth < 799) {
+    if (window.innerWidth < 868) {
       // Telas menores
       img.style.height = "100px";
       img.style.width = "100px";
@@ -54,7 +54,7 @@ function diminuirMenu() {
 
 // Verifica a largura da tela e esconder o header grande se a largura for menor que 659px
 function ajustarHeaderPorTamanho() {
-  if (window.innerWidth < 659) {
+  if (window.innerWidth < 868) {
     menu.style.height = "110px";
     menu.style.position = "fixed";
 
@@ -85,7 +85,7 @@ window.addEventListener("resize", ajustarHeaderPorTamanho);
 
 // Evento de scroll para diminuir o menu apenas em telas maiores
 window.addEventListener("scroll", () => {
-  if (window.innerWidth >= 659) {
+  if (window.innerWidth >= 868) {
     diminuirMenu();
   }
 });

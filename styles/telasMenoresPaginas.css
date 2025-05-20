@@ -88,7 +88,7 @@
 @media all and (min-width: 960px) and (max-width: 1009px) {
   /*Pagina de serviço*/
   #serviços {
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .blocoServ2 {
     margin-bottom: 5px;
@@ -97,7 +97,7 @@
 
   /*Pagina do Blog*/
   #blog #top {
-    margin-top: 12%;
+    margin-top: 6%;
   }
   #curiosidades {
     gap: 10px 20px; /* Espaçamento entre os itens */
@@ -113,12 +113,12 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   /*Pagina da Marcas*/
   .mainMarcas #top {
-    margin-top: 10%;
+    margin-top: 5%;
   }
   #galery #fotos {
     display: block;
@@ -127,7 +127,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 12%;
+    margin-top: 6%;
   }
   #lavaCar #groupLCar {
     width: 93%;
@@ -263,9 +263,6 @@
   /*para tablets medios*/
 
   /*Pagina de serviço*/
-  #serviços {
-    margin-top: 20%;
-  }
   .blocoServ2 {
     display: inline-block;
     columns: 2;
@@ -283,9 +280,6 @@
   }
 
   /*Pagina do Blog*/
-  #blog #top {
-    margin-top: 20%;
-  }
   #curiosidades {
     gap: 10px 20px; /* Espaçamento entre os itens */
     justify-content: center; /* Garante que os itens fiquem centralizados */
@@ -302,23 +296,14 @@
   .headerQSomosH1 h3 {
     font-size: 1.4em;
   }
-  #qSomos #section1 {
-    margin-top: 17%;
-  }
 
   /*Pagina da Marcas*/
-  .mainMarcas #top {
-    margin-top: 15%;
-  }
   #galery #fotos {
     display: block;
     columns: 3;
   }
 
   /*Pagina LavaCar*/
-  #lavaCar #top {
-    margin-top: 15%;
-  }
   #lavaCar h1 {
     margin-bottom: -50px;
   }
@@ -364,7 +349,6 @@
   /*para tablets pqnos*/
   /*Pagina de serviço*/
   #serviços {
-    margin-top: 28%;
     display: block;
     align-items: center;
   }
@@ -386,9 +370,6 @@
   }
 
   /*Pagina do Blog*/
-  #blog #top {
-    margin-top: 30%;
-  }
   #curiosidades {
     gap: 10px 20px; /* Espaçamento entre os itens */
     justify-content: center; /* Garante que os itens fiquem centralizados */
@@ -401,24 +382,13 @@
     align-items: center;
   }
 
-  /*Pagina quem somos*/
-  #qSomos #section1 {
-    margin-top: 28%;
-  }
-
   /*Pagina da Marcas*/
-  .mainMarcas #top {
-    margin-top: 28%;
-  }
   #galery #fotos {
     display: block;
     columns: 3;
   }
 
   /*Pagina LavaCar*/
-  #lavaCar #top {
-    margin-top: 30%;
-  }
   #lavaCar h1 {
     margin-bottom: -40px;
   }

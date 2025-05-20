@@ -1,277 +1,295 @@
 @charset "UTF8";
 
-
-:root{
-    --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black;
-    --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa, 0 0 30px #0085FF;
-    --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red, 0 0 30px white;
-    
+:root {
+  --efeitoBrilhanteBlack: 0 0 5px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px black;
+  --efeitoBrilhanteBlue: 0 0 5px #0a5daa, 0 0 10px #0a5daa, 0 0 20px #0a5daa,
+    0 0 30px #0085ff;
+  --efeitoBrilhanteRed: 0 0 5px white, 0 0 10px white, 0 0 20px red,
+    0 0 30px white;
 }
 
-html, body{
-    scroll-behavior: smooth; /*rolagem suave*/    
+html,
+body {
+  scroll-behavior: smooth; /*rolagem suave*/
 }
 :target {
-    scroll-margin-top: 5em;
+  scroll-margin-top: 5em;
 }
-
 
 /*Pagina de serviço e no Index*/
-#serviços{
-    text-align: center;
-    box-sizing: content-box;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 5%;
-}
-.blocoServ2{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+#serviços {
+  text-align: center;
+  box-sizing: content-box;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 5%;
 
-    box-sizing: border-box;
-    width: 95%;
-    margin: 0 auto;
+  scroll-margin-top: 120px; /* Compensa o menu fixo, com folga */
 }
-.blocoServ2 div{
-    width: 300px;
-    padding: 5px; padding-bottom: 10px;
-    margin: 5px;
-    text-align: center;
-    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
-}
-.blocoServ2 img{ /*imagens dos serviços*/
-    width: 200px;
-    height: 200px;
-    border-radius: 10%;
-}
-.blocoServ2 h2{
-    font-size: 1.2em;
-}
-.blocoServ2 p{
-    font-size: 1em;
-}
+.blocoServ2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 
-
+  box-sizing: border-box;
+  width: 95%;
+  margin: 0 auto;
+}
+.blocoServ2 div {
+  width: 300px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin: 5px;
+  text-align: center;
+  box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
+}
+.blocoServ2 img {
+  /*imagens dos serviços*/
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+.blocoServ2 h2 {
+  font-size: 1.2em;
+}
+.blocoServ2 p {
+  font-size: 1em;
+}
 
 /*Pagina do Blog*/
-main #blog{   
-    box-sizing: content-box;
+main #blog {
+  box-sizing: content-box;
 }
-#blog h1{
-    display: none;
+#blog h1 {
+  display: none;
 }
-main #curiosidades{ /*todos os blocos*/
-    display: flex;
-    align-items: stretch; /* Faz com que todos os blocos tenham a mesma altura */
-    justify-content: center; /* Centraliza os blocos */
-    flex-wrap: wrap; /* Faz com que os blocos se ajustem conforme o tamanho da tela */
-    width: 95%;
-    box-sizing: border-box;  
-    margin: 0 auto;
+main #curiosidades {
+  /*todos os blocos*/
+  display: flex;
+  align-items: stretch; /* Faz com que todos os blocos tenham a mesma altura */
+  justify-content: center; /* Centraliza os blocos */
+  flex-wrap: wrap; /* Faz com que os blocos se ajustem conforme o tamanho da tela */
+  width: 95%;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
-main #blocosCuriosidades1, #blocosCuriosidades2{ /*cada bloco*/
-    width: 300px;
-    padding: 20px; margin-bottom: 15px;
-    box-sizing: border-box;
-    
-    font-size: medium;
-    box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
+main #blocosCuriosidades1,
+#blocosCuriosidades2 {
+  /*cada bloco*/
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+
+  font-size: medium;
+  box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.76);
 }
 
-main h3{
-    text-align: center;
-    text-indent: 10px;
+main h3 {
+  text-align: center;
+  text-indent: 10px;
 }
-main #color{ /*destaque*/
-    background-color: blue;
-    color: white;
-    border-radius: 10px;
-    margin: 10px 0px; padding: 15px;
+main #color {
+  /*destaque*/
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 15px;
 }
-main #curiosidades img{
-    width: 260px;
-    text-align: center; /*Nao funciona em imagem*/
-    display: block; /* Torna a imagem um elemento de bloco */
-    margin: 0 auto; /* Centraliza a imagem */
-    border-radius: 10px;
+main #curiosidades img {
+  width: 260px;
+  text-align: center; /*Nao funciona em imagem*/
+  display: block; /* Torna a imagem um elemento de bloco */
+  margin: 0 auto; /* Centraliza a imagem */
+  border-radius: 10px;
 }
-
 
 /*Pagina quem somos*/
-#qSomos{
-    box-sizing: content-box;
+#qSomos {
+  box-sizing: content-box;
 }
-.container{
-    display: flex;
-    padding: 10px; margin: 6% 0% 1%; 
-    width: 100%;
-    margin: auto;
-    box-sizing: border-box;
+.container {
+  display: flex;
+  padding: 10px;
+  margin: 6% 0% 1%;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
 }
-#qSomos h1{
-    margin-bottom: 30px;
-    color: red;
-    text-shadow: var(--efeitoBrilhanteRed);
+#qSomos h1 {
+  margin-bottom: 30px;
+  color: red;
+  text-shadow: var(--efeitoBrilhanteRed);
 }
-#qSomos h4{ /*texto*/
-    box-sizing: border-box;
-    font-weight: 100;
-    text-align: center;
-    margin: 0px 20px;
-}
-
-.detalhes{
-    margin: auto;
-    margin: 10px;
-}
-details{
-    border: 2px solid;
-    padding: 10px; margin: auto;
-    width: 95%; /* Ajusta largura responsiva */
-    box-sizing: border-box;
-    text-align: left;
-    cursor: pointer;
+#qSomos h4 {
+  /*texto*/
+  box-sizing: border-box;
+  font-weight: 100;
+  text-align: center;
+  margin: 0px 20px;
 }
 
-#imgqSomos{
-    margin: auto;
-    display: flex;
-    flex-direction: column; /*deixar a coluna em baixo*/
+.detalhes {
+  margin: auto;
+  margin: 10px;
 }
-#imgqSomos img{
-    width: 300px;
-    padding: 5px;
+details {
+  border: 2px solid;
+  padding: 10px;
+  margin: auto;
+  width: 95%; /* Ajusta largura responsiva */
+  box-sizing: border-box;
+  text-align: left;
+  cursor: pointer;
 }
 
-
-
+#imgqSomos {
+  margin: auto;
+  display: flex;
+  flex-direction: column; /*deixar a coluna em baixo*/
+}
+#imgqSomos img {
+  width: 300px;
+  padding: 5px;
+}
 
 /*Pagina da Marcas*/
-.mainMarcas{
-    box-sizing: content-box;
+.mainMarcas {
+  box-sizing: content-box;
 }
-#galery{
-    box-sizing: border-box;
-    text-align: center;
+#galery {
+  box-sizing: border-box;
+  text-align: center;
 }
-#galery #fotos{
-    width: 100%;
-    margin: auto;
+#galery #fotos {
+  width: 100%;
+  margin: auto;
 }
-#galery img{
-    box-sizing: border-box;
-    margin: auto;
-    margin: 30px;
-    width: 120px;
-    height: 120px;
+#galery img {
+  box-sizing: border-box;
+  margin: auto;
+  margin: 30px;
+  width: 120px;
+  height: 120px;
 }
-
-
 
 /*Pagina LavaCar*/
-#lavaCar{
-    margin: auto;
-    box-sizing: content-box;
-    text-align: center;
+#lavaCar {
+  margin: auto;
+  box-sizing: content-box;
+  text-align: center;
 }
-#lavaCar h1{
-    text-align: center; 
-    margin-bottom: 30px;
-    color: red;
-    text-shadow: var(--efeitoBrilhanteRed);
+#lavaCar h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: red;
+  text-shadow: var(--efeitoBrilhanteRed);
 }
-#lavaCar #groupLCar{
-    box-sizing: content-box;
-    display: flex; 
-    justify-content: center; /* Centraliza os itens */
-    text-align: center;
-    align-items: center; /*alinhar a altura da lista com a foto*/
+#lavaCar #groupLCar {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center; /* Centraliza os itens */
+  text-align: center;
+  align-items: center; /*alinhar a altura da lista com a foto*/
 }
-#lavaCar #groupLCar ul{
-    padding: 30px; margin: 10px;
-    font-size: larger;
-    text-align: left;
-}
-
-
-#groupLCar img{
-    width: 420px;
+#lavaCar #groupLCar ul {
+  padding: 30px;
+  margin: 10px;
+  font-size: larger;
+  text-align: left;
 }
 
-.carrossel-container { /*toda a tabela, junto c os botoes*/
-    position: relative; /*para os botoes*/
-    overflow: hidden;
-    width: 410px;
+#groupLCar img {
+  width: 420px;
 }
-.cardsCarrossel{  /*todos os conhecimentos*/
-    display: flex;
-    margin: auto;
-    transition: transform 0.5s ease-in-out;
-    will-change: transform;
 
+.carrossel-container {
+  /*toda a tabela, junto c os botoes*/
+  position: relative; /*para os botoes*/
+  overflow: hidden;
+  width: 410px;
 }
-.card{ /*cada foto*/
-    width: 420px;
+.cardsCarrossel {
+  /*todos os conhecimentos*/
+  display: flex;
+  margin: auto;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+.card {
+  /*cada foto*/
+  width: 420px;
 }
 /*botoes para carrossel*/
 .control {
-    position: absolute;
-    background: var(--headerFotter);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    z-index: 10; /*para ele ficar visivel sempre*/
+  position: absolute;
+  background: var(--headerFotter);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 10; /*para ele ficar visivel sempre*/
 }
 .control-left {
-    top: 0; bottom: 0; left: 0; right: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: auto;
 }
 .control-right {
-    top: 0; bottom: 0; left: auto; right: 0;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
 }
 
+#group2LCar {
+  box-sizing: border-box;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; /*alinhar a altura da lista com a foto*/
+}
+#group2LCar h4 {
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+#group2LCar h5 {
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  text-decoration: underline red 2px;
+  margin-top: 15px;
+  margin-bottom: -25px;
+}
+#group2LCar img {
+  width: 150px;
+  margin: 10px;
+}
+#groupLCar h5 img {
+  display: block;
+  width: 30px;
+  margin-bottom: -25px;
+  margin-left: 5px;
+}
 
-#group2LCar{
-    box-sizing: border-box;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center; /*alinhar a altura da lista com a foto*/
+#group2LCar a p {
+  margin-top: 10px;
 }
-#group2LCar h4{
-    text-align: center;
-    background-color: red; color: white;
-    border-radius: 20px;
-    padding: 10px; width: 150px;
-    margin: auto; margin-bottom: 5px;
+#group2LCar a {
+  text-decoration: none;
+  color: black;
 }
-#group2LCar h5{
-    font-size: large;
-    padding: 5px;
-    text-align: center;
-    text-decoration: underline red 2px;
-    margin-top: 15px; margin-bottom: -25px;
-}
-#group2LCar img{
-    width: 150px;
-    margin: 10px;
-}
-#groupLCar h5 img{
-    display: block;
-    width: 30px; 
-    margin-bottom: -25px; margin-left: 5px;
-}
-
-#group2LCar a p{
-    margin-top: 10px;
-}
-#group2LCar a{
-    text-decoration: none;
-    color: black;
-}
-#group2LCar a:hover{
-    text-decoration: underline;
+#group2LCar a:hover {
+  text-decoration: underline;
 }

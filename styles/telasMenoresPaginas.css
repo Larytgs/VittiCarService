@@ -364,7 +364,7 @@
   /*para tablets pqnos*/
   /*Pagina de serviço*/
   #serviços {
-    margin-top: 20%;
+    margin-top: 28%;
     display: block;
     align-items: center;
   }
@@ -387,7 +387,7 @@
 
   /*Pagina do Blog*/
   #blog #top {
-    margin-top: 20%;
+    margin-top: 30%;
   }
   #curiosidades {
     gap: 10px 20px; /* Espaçamento entre os itens */
@@ -403,12 +403,12 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 20%;
+    margin-top: 28%;
   }
 
   /*Pagina da Marcas*/
   .mainMarcas #top {
-    margin-top: 20%;
+    margin-top: 28%;
   }
   #galery #fotos {
     display: block;
@@ -417,7 +417,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 22%;
+    margin-top: 30%;
   }
   #lavaCar h1 {
     margin-bottom: -40px;
@@ -466,7 +466,7 @@
   /*tive que fazer outro menor*/
   /*Pagina de serviço*/
   #serviços {
-    margin-top: 30%;
+    margin-top: 2%;
     display: block;
     align-items: center;
   }
@@ -491,7 +491,7 @@
 
   /*Pagina do Blog*/
   #blog #top {
-    margin-top: 25%;
+    margin-top: 2%;
   }
   #curiosidades {
     gap: 10px 20px; /* Espaçamento entre os itens */
@@ -507,7 +507,7 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 20%;
+    margin-top: 2%;
   }
   .container {
     display: block;
@@ -524,7 +524,7 @@
 
   /*Pagina da Marcas*/
   .mainMarcas #top {
-    margin-top: 25%;
+    margin-top: 2%;
   }
   #galery #fotos {
     display: ruby;
@@ -532,7 +532,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 25%;
+    margin-top: 2%;
   }
   #lavaCar h1 {
     margin-bottom: -20px;
@@ -583,7 +583,7 @@
   /*para celular*/
   /*Pagina de serviço*/
   #serviços {
-    margin-top: 25%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
   }
@@ -612,7 +612,7 @@
 
   /*Pagina do Blog*/
   #blog #top {
-    margin-top: 25%;
+    margin-top: 3%;
   }
   #blog h1 {
     display: block;
@@ -633,7 +633,7 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 25%;
+    margin-top: 2%;
   }
   #qSomos h1 {
     margin-bottom: 0px;
@@ -648,7 +648,7 @@
 
   /*Pagina da Marcas*/
   .mainMarcas #top {
-    margin-top: 30%;
+    margin-top: 2%;
   }
   #galery #fotos {
     display: contents;
@@ -656,7 +656,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 25%;
+    margin-top: 2%;
   }
   #lavaCar h1 {
     margin-bottom: -10px;
@@ -706,7 +706,7 @@
   /*para celular menores*/
   /*Pagina de serviço*/
   #serviços {
-    margin-top: 28%;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
   }
@@ -735,7 +735,7 @@
 
   /*Pagina do Blog*/
   #blog #top {
-    margin-top: 32%;
+    margin-top: 3%;
   }
   #blog h1 {
     display: block;
@@ -756,7 +756,7 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 30%;
+    margin-top: 3%;
   }
   #qSomos h1 {
     margin-bottom: 0px;
@@ -771,7 +771,7 @@
 
   /*Pagina da Marcas*/
   .mainMarcas #top {
-    margin-top: 30%;
+    margin-top: 3%;
   }
   #galery #fotos {
     display: ruby;
@@ -783,7 +783,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 32%;
+    margin-top: 3%;
   }
   #lavaCar h1 {
     margin-bottom: -5px;

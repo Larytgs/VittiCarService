@@ -33,7 +33,7 @@ function diminuirMenu() {
       img.style.margin = "10px 100px";
     }
 
-    main.style.padding = "10% 0% 5% 0%";
+    main.style.paddingTop = "110px";
     h1.style.display = "none";
   } else {
     //header grande
@@ -57,26 +57,24 @@ function diminuirMenu() {
       img.style.margin = "10px 30px";
     }
 
-    main.style.padding = "0%";
+    main.style.paddingTop = "0";
     h1.style.display = "block";
   }
 }
 
 // Verifica a largura da tela e esconder o header grande se a largura for menor que 659px
 function ajustarHeaderPorTamanho() {
-  //Tirando o header grande, a partir do tamanho tablet pqno
   if (window.innerWidth < 659) {
     menu.style.height = "110px";
     menu.style.position = "fixed";
-    //menu.style.backgroundColor = 'white';
 
-    main.style.margin = "0%";
-    h1.style.display = "none";
-
-    //Responsividade para a logo
     img.style.height = "70px";
     img.style.width = "70px";
     img.style.margin = "10px 30px";
+
+    h1.style.display = "none";
+
+    main.style.marginTop = "110px"; // <- Adicionado
   } else {
     menu.style.height = "100vh";
     menu.style.position = "fixed";
@@ -85,7 +83,9 @@ function ajustarHeaderPorTamanho() {
     img.style.width = "150px";
     img.style.margin = "10px 30px";
 
-    h1.style.display = "block"; // Garante que o h1 volte a aparecer em telas maiores
+    h1.style.display = "block";
+
+    main.style.marginTop = "110px"; // mesmo aqui, ainda precisa espaço!
   }
 }
 

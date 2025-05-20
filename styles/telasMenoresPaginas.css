@@ -491,7 +491,7 @@
 
   /*Pagina do Blog*/
   #blog #top {
-    margin-top: 30%;
+    margin-top: 25%;
   }
   #curiosidades {
     gap: 10px 20px; /* Espaçamento entre os itens */
@@ -507,7 +507,7 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 30%;
+    margin-top: 20%;
   }
   .container {
     display: block;
@@ -532,7 +532,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 30%;
+    margin-top: 25%;
   }
   #lavaCar h1 {
     margin-bottom: -20px;
@@ -633,7 +633,10 @@
 
   /*Pagina quem somos*/
   #qSomos #section1 {
-    margin-top: 35%;
+    margin-top: 25%;
+  }
+  #qSomos h1 {
+    margin-bottom: 0px;
   }
   .container {
     display: block;
@@ -653,7 +656,7 @@
 
   /*Pagina LavaCar*/
   #lavaCar #top {
-    margin-top: 35%;
+    margin-top: 25%;
   }
   #lavaCar h1 {
     margin-bottom: -10px;

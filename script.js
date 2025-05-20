@@ -52,7 +52,7 @@ function diminuirMenu() {
   }
 }
 
-// Verifica a largura da tela e esconder o header grande se a largura for menor que 659px
+// Verifica a largura da tela e esconder o header grande se a largura for menor que 868px
 function ajustarHeaderPorTamanho() {
   if (window.innerWidth < 868) {
     menu.style.height = "110px";
@@ -64,6 +64,7 @@ function ajustarHeaderPorTamanho() {
 
     h1.style.display = "none";
 
+    main.style.paddingTop = "0vh";
     main.style.marginTop = "110px"; // <- Adicionado
   } else {
     menu.style.height = "100vh";

@@ -115,7 +115,10 @@ document.querySelectorAll("#menuzinho a").forEach((link) => {
 //Carrossel LavaCar
 const container = document.querySelector(".cardsCarrossel");
 let cards = document.querySelectorAll(".card");
-const cardWidth = cards[0].offsetWidth + 10; // Largura do card + gap
+let cardWidth = 0;
+if (cards.length > 0) {
+  cardWidth = cards[0].offsetWidth + 10;
+} // Largura do card + gap
 let index = 0; // Começa no primeiro card real
 
 // Função para mover o carrossel
@@ -134,9 +137,9 @@ function moverCarrossel(direcao) {
 }
 
 //Parte da seta subindo
-const scrollToTop = () => {
+function scrollToTop() {
   window.scrollTo({
     top: 0,
     behavior: "smooth",
   });
-};
+}

@@ -1,6 +1,6 @@
 # Novo projeto
 
-- site Vitti Car Service
+- Site: Vitti Car Service
 
 <img src="imgs/vittiCar.png"></img>
 

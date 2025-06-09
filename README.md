@@ -2,7 +2,7 @@
 
 - site Vitti Car Service
 
-<img src=""></img>
+<img src="imgs/vittiCar.png"></img>
 
 💻O site Vitti Car Service, foi desenvolvido para promover os serviços de uma oficina automotiva, oferecendo uma plataforma prática e informativa.
 O foco é destacar os serviços de manutenção e reparo de veículos, com ênfase em transparência e facilidade de contato.
